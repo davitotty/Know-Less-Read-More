@@ -1,0 +1,82 @@
+{
+ "cfg": {
+  "d": 64,
+  "heads": 4,
+  "layers": 2,
+  "loops": 2,
+  "lr": 0.002,
+  "bs": 32,
+  "nq": 8,
+  "var_def": true,
+  "steps": 5000,
+  "eval_every": 500,
+  "train_perm": false,
+  "seed": 0
+ },
+ "n_params": 113297,
+ "final": {
+  "step": 5000,
+  "follow_perm": 1.0,
+  "follow_map": 1.0
+ },
+ "curve": [
+  {
+   "step": 0,
+   "follow_perm": 0.198,
+   "follow_map": 0.236
+  },
+  {
+   "step": 500,
+   "follow_perm": 0.198,
+   "follow_map": 0.334
+  },
+  {
+   "step": 1000,
+   "follow_perm": 0.198,
+   "follow_map": 0.378
+  },
+  {
+   "step": 1500,
+   "follow_perm": 1.0,
+   "follow_map": 1.0
+  },
+  {
+   "step": 2000,
+   "follow_perm": 1.0,
+   "follow_map": 1.0
+  },
+  {
+   "step": 2500,
+   "follow_perm": 1.0,
+   "follow_map": 1.0
+  },
+  {
+   "step": 3000,
+   "follow_perm": 1.0,
+   "follow_map": 1.0
+  },
+  {
+   "step": 3500,
+   "follow_perm": 1.0,
+   "follow_map": 1.0
+  },
+  {
+   "step": 4000,
+   "follow_perm": 1.0,
+   "follow_map": 1.0
+  },
+  {
+   "step": 4500,
+   "follow_perm": 1.0,
+   "follow_map": 1.0
+  },
+  {
+   "step": 5000,
+   "follow_perm": 1.0,
+   "follow_map": 1.0
+  }
+ ],
+ "seconds": 351.06986951828003,
+ "exp": "e4",
+ "name": "train_maps"
+}

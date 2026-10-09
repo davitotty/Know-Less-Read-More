@@ -1,0 +1,50 @@
+% ===========================================================================
+\section{Pilot Study}
+\label{sec:pilot}
+% ===========================================================================
+
+The pilot asks three questions of the smallest models that can answer them.
+Does a model trained on textbooks read them or memorise them (E1)?
+Which exercise types must be in the training set for which abilities to appear (E2)?
+Does re-applying the same layers extend the chain of rules a model can follow (E3)?
+A fourth experiment (E4) isolates an effect of the training distribution that we ran into while designing the benchmark.
+
+
+\paragraph{Setup.}
+All models are decoder-only transformers of width 64 with four attention heads.
+The default model applies a block of two layers twice, for four layer passes and \NparamsMain{} parameters.
+Training takes 5{,}000 steps of 32 episodes (8{,}000 steps in E3) on one CPU core, which is between \MinRunMinutes{} and \MaxRunMinutes{} minutes per run.
+Accuracy is measured on 4{,}000 held-out episodes per test, giving a standard error below 0.8 percentage points.
+Appendix~\ref{app:details} gives the remaining details, and Appendix~\ref{app:runs} lists every run.
+The pilot comprises \TotalRuns{} runs and \TotalCpuHours{} CPU-hours.
+The number of seeds per condition is small and is stated with each result; we therefore describe only effects that are large compared with the gap between the guessing level and ceiling.
+
+\subsection{E1: Memorising a textbook versus reading one}
+
+\input{sec_pilot_e1.tex}
+
+\subsection{E2: Which skills have to be trained}
+
+\input{sec_pilot_e2.tex}
+
+\subsection{E3: Recurrent depth}
+
+\input{sec_pilot_e3.tex}
+
+\subsection{E4: A symmetric training distribution holds the reading skill back}
+\label{sec:symmetry}
+
+\input{sec_pilot_e4.tex}
+
+\subsection{What did not work}
+\label{sec:negative}
+
+\paragraph{Retrieval by content was not learned within our budget.}
+In the shuffled layout a value must be found by matching the function name and the key against free-standing facts.
+In exploratory runs (Appendix~\ref{app:negative}; single seeds, not controlled comparisons), \skill{follow} stayed at chance in that layout with permutations and with arbitrary maps, for as long as we trained (between 1{,}500 and 4{,}000 steps, depending on the run).
+The aligned layout replaces retrieval by content with retrieval by address, and all results in this paper are for that easier setting.
+Retrieval by key is part of layer C1, so the pilot leaves the hardest primitive of the proposed curriculum untested.
+
+\subsection{Where the pilot leaves the hypotheses}
+
+\input{sec_pilot_summary.tex}

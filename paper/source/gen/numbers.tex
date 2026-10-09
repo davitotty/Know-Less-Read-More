@@ -1,0 +1,429 @@
+\newcommand{\EFourMaxSeeds}{3}
+\newcommand{\EFourMinSeeds}{3}
+\newcommand{\EFourTrainMapsFirst}{1{,}500, 2{,}000, 2{,}500}
+\newcommand{\EFourTrainMapsFollowMap}{100.0}
+\newcommand{\EFourTrainMapsFollowMapList}{100.0, 100.0 and 100.0}
+\newcommand{\EFourTrainMapsFollowMapMax}{100.0}
+\newcommand{\EFourTrainMapsFollowMapMin}{100.0}
+\newcommand{\EFourTrainMapsFollowMapSolved}{3}
+\newcommand{\EFourTrainMapsFollowPerm}{100.0}
+\newcommand{\EFourTrainMapsFollowPermList}{100.0, 100.0 and 100.0}
+\newcommand{\EFourTrainMapsFollowPermMax}{100.0}
+\newcommand{\EFourTrainMapsFollowPermMin}{100.0}
+\newcommand{\EFourTrainMapsFollowPermSolved}{3}
+\newcommand{\EFourTrainMapsSeeds}{3}
+\newcommand{\EFourTrainPermsFirst}{never, never, never}
+\newcommand{\EFourTrainPermsFollowMap}{31.6}
+\newcommand{\EFourTrainPermsFollowMapList}{27.0, 42.1 and 25.8}
+\newcommand{\EFourTrainPermsFollowMapMax}{42.1}
+\newcommand{\EFourTrainPermsFollowMapMin}{25.8}
+\newcommand{\EFourTrainPermsFollowMapSolved}{0}
+\newcommand{\EFourTrainPermsFollowPerm}{38.7}
+\newcommand{\EFourTrainPermsFollowPermList}{30.3, 52.5 and 33.3}
+\newcommand{\EFourTrainPermsFollowPermMax}{52.5}
+\newcommand{\EFourTrainPermsFollowPermMin}{30.3}
+\newcommand{\EFourTrainPermsFollowPermSolved}{0}
+\newcommand{\EFourTrainPermsSeeds}{3}
+\newcommand{\EOneMFourNewComposeTwo}{21.2}
+\newcommand{\EOneMFourNewComposeTwoList}{21.2}
+\newcommand{\EOneMFourNewComposeTwoMax}{21.2}
+\newcommand{\EOneMFourNewComposeTwoMin}{21.2}
+\newcommand{\EOneMFourNewComposeTwoSolved}{0}
+\newcommand{\EOneMFourNewFollow}{22.8}
+\newcommand{\EOneMFourNewFollowList}{22.8}
+\newcommand{\EOneMFourNewFollowMax}{22.8}
+\newcommand{\EOneMFourNewFollowMin}{22.8}
+\newcommand{\EOneMFourNewFollowSolved}{0}
+\newcommand{\EOneMFourSeeds}{1}
+\newcommand{\EOneMFourSeenComposeTwo}{100.0}
+\newcommand{\EOneMFourSeenComposeTwoList}{100.0}
+\newcommand{\EOneMFourSeenComposeTwoMax}{100.0}
+\newcommand{\EOneMFourSeenComposeTwoMin}{100.0}
+\newcommand{\EOneMFourSeenComposeTwoSolved}{1}
+\newcommand{\EOneMFourSeenFollow}{100.0}
+\newcommand{\EOneMFourSeenFollowList}{100.0}
+\newcommand{\EOneMFourSeenFollowMax}{100.0}
+\newcommand{\EOneMFourSeenFollowMin}{100.0}
+\newcommand{\EOneMFourSeenFollowSolved}{1}
+\newcommand{\EOneMInfNewComposeTwo}{100.0}
+\newcommand{\EOneMInfNewComposeTwoList}{100.0 and 100.0}
+\newcommand{\EOneMInfNewComposeTwoMax}{100.0}
+\newcommand{\EOneMInfNewComposeTwoMin}{100.0}
+\newcommand{\EOneMInfNewComposeTwoSolved}{2}
+\newcommand{\EOneMInfNewFollow}{100.0}
+\newcommand{\EOneMInfNewFollowList}{100.0 and 100.0}
+\newcommand{\EOneMInfNewFollowMax}{100.0}
+\newcommand{\EOneMInfNewFollowMin}{100.0}
+\newcommand{\EOneMInfNewFollowSolved}{2}
+\newcommand{\EOneMInfSeeds}{2}
+\newcommand{\EOneMInfSeenComposeTwo}{100.0}
+\newcommand{\EOneMInfSeenComposeTwoList}{100.0 and 100.0}
+\newcommand{\EOneMInfSeenComposeTwoMax}{100.0}
+\newcommand{\EOneMInfSeenComposeTwoMin}{100.0}
+\newcommand{\EOneMInfSeenComposeTwoSolved}{2}
+\newcommand{\EOneMInfSeenFollow}{100.0}
+\newcommand{\EOneMInfSeenFollowList}{100.0 and 100.0}
+\newcommand{\EOneMInfSeenFollowMax}{100.0}
+\newcommand{\EOneMInfSeenFollowMin}{100.0}
+\newcommand{\EOneMInfSeenFollowSolved}{2}
+\newcommand{\EOneMOneNewComposeTwo}{21.3}
+\newcommand{\EOneMOneNewComposeTwoList}{21.3}
+\newcommand{\EOneMOneNewComposeTwoMax}{21.3}
+\newcommand{\EOneMOneNewComposeTwoMin}{21.3}
+\newcommand{\EOneMOneNewComposeTwoSolved}{0}
+\newcommand{\EOneMOneNewFollow}{20.7}
+\newcommand{\EOneMOneNewFollowList}{20.7}
+\newcommand{\EOneMOneNewFollowMax}{20.7}
+\newcommand{\EOneMOneNewFollowMin}{20.7}
+\newcommand{\EOneMOneNewFollowSolved}{0}
+\newcommand{\EOneMOneSeeds}{1}
+\newcommand{\EOneMOneSeenComposeTwo}{100.0}
+\newcommand{\EOneMOneSeenComposeTwoList}{100.0}
+\newcommand{\EOneMOneSeenComposeTwoMax}{100.0}
+\newcommand{\EOneMOneSeenComposeTwoMin}{100.0}
+\newcommand{\EOneMOneSeenComposeTwoSolved}{1}
+\newcommand{\EOneMOneSeenFollow}{100.0}
+\newcommand{\EOneMOneSeenFollowList}{100.0}
+\newcommand{\EOneMOneSeenFollowMax}{100.0}
+\newcommand{\EOneMOneSeenFollowMin}{100.0}
+\newcommand{\EOneMOneSeenFollowSolved}{1}
+\newcommand{\EOneMOneSixNewComposeTwo}{21.1}
+\newcommand{\EOneMOneSixNewComposeTwoList}{21.1}
+\newcommand{\EOneMOneSixNewComposeTwoMax}{21.1}
+\newcommand{\EOneMOneSixNewComposeTwoMin}{21.1}
+\newcommand{\EOneMOneSixNewComposeTwoSolved}{0}
+\newcommand{\EOneMOneSixNewFollow}{31.4}
+\newcommand{\EOneMOneSixNewFollowList}{31.4}
+\newcommand{\EOneMOneSixNewFollowMax}{31.4}
+\newcommand{\EOneMOneSixNewFollowMin}{31.4}
+\newcommand{\EOneMOneSixNewFollowSolved}{0}
+\newcommand{\EOneMOneSixSeeds}{1}
+\newcommand{\EOneMOneSixSeenComposeTwo}{100.0}
+\newcommand{\EOneMOneSixSeenComposeTwoList}{100.0}
+\newcommand{\EOneMOneSixSeenComposeTwoMax}{100.0}
+\newcommand{\EOneMOneSixSeenComposeTwoMin}{100.0}
+\newcommand{\EOneMOneSixSeenComposeTwoSolved}{1}
+\newcommand{\EOneMOneSixSeenFollow}{100.0}
+\newcommand{\EOneMOneSixSeenFollowList}{100.0}
+\newcommand{\EOneMOneSixSeenFollowMax}{100.0}
+\newcommand{\EOneMOneSixSeenFollowMin}{100.0}
+\newcommand{\EOneMOneSixSeenFollowSolved}{1}
+\newcommand{\EOneMSixFourNewComposeTwo}{51.3}
+\newcommand{\EOneMSixFourNewComposeTwoList}{74.2 and 28.4}
+\newcommand{\EOneMSixFourNewComposeTwoMax}{74.2}
+\newcommand{\EOneMSixFourNewComposeTwoMin}{28.4}
+\newcommand{\EOneMSixFourNewComposeTwoSolved}{0}
+\newcommand{\EOneMSixFourNewFollow}{90.5}
+\newcommand{\EOneMSixFourNewFollowList}{100.0 and 81.0}
+\newcommand{\EOneMSixFourNewFollowMax}{100.0}
+\newcommand{\EOneMSixFourNewFollowMin}{81.0}
+\newcommand{\EOneMSixFourNewFollowSolved}{1}
+\newcommand{\EOneMSixFourSeeds}{2}
+\newcommand{\EOneMSixFourSeenComposeTwo}{99.8}
+\newcommand{\EOneMSixFourSeenComposeTwoList}{100.0 and 99.6}
+\newcommand{\EOneMSixFourSeenComposeTwoMax}{100.0}
+\newcommand{\EOneMSixFourSeenComposeTwoMin}{99.6}
+\newcommand{\EOneMSixFourSeenComposeTwoSolved}{2}
+\newcommand{\EOneMSixFourSeenFollow}{100.0}
+\newcommand{\EOneMSixFourSeenFollowList}{100.0 and 100.0}
+\newcommand{\EOneMSixFourSeenFollowMax}{100.0}
+\newcommand{\EOneMSixFourSeenFollowMin}{100.0}
+\newcommand{\EOneMSixFourSeenFollowSolved}{2}
+\newcommand{\EOneMaxSeeds}{2}
+\newcommand{\EOneMinSeeds}{1}
+\newcommand{\EThreeMaxSeeds}{3}
+\newcommand{\EThreeMinSeeds}{1}
+\newcommand{\EThreeTiedTwoXOneDepthFive}{21.4}
+\newcommand{\EThreeTiedTwoXOneDepthFiveList}{21.4}
+\newcommand{\EThreeTiedTwoXOneDepthFiveMax}{21.4}
+\newcommand{\EThreeTiedTwoXOneDepthFiveMin}{21.4}
+\newcommand{\EThreeTiedTwoXOneDepthFiveSolved}{0}
+\newcommand{\EThreeTiedTwoXOneDepthFour}{22.9}
+\newcommand{\EThreeTiedTwoXOneDepthFourList}{22.9}
+\newcommand{\EThreeTiedTwoXOneDepthFourMax}{22.9}
+\newcommand{\EThreeTiedTwoXOneDepthFourMin}{22.9}
+\newcommand{\EThreeTiedTwoXOneDepthFourSolved}{0}
+\newcommand{\EThreeTiedTwoXOneDepthOne}{100.0}
+\newcommand{\EThreeTiedTwoXOneDepthOneList}{100.0}
+\newcommand{\EThreeTiedTwoXOneDepthOneMax}{100.0}
+\newcommand{\EThreeTiedTwoXOneDepthOneMin}{100.0}
+\newcommand{\EThreeTiedTwoXOneDepthOneSolved}{1}
+\newcommand{\EThreeTiedTwoXOneDepthSix}{22.1}
+\newcommand{\EThreeTiedTwoXOneDepthSixList}{22.1}
+\newcommand{\EThreeTiedTwoXOneDepthSixMax}{22.1}
+\newcommand{\EThreeTiedTwoXOneDepthSixMin}{22.1}
+\newcommand{\EThreeTiedTwoXOneDepthSixSolved}{0}
+\newcommand{\EThreeTiedTwoXOneDepthThree}{24.4}
+\newcommand{\EThreeTiedTwoXOneDepthThreeList}{24.4}
+\newcommand{\EThreeTiedTwoXOneDepthThreeMax}{24.4}
+\newcommand{\EThreeTiedTwoXOneDepthThreeMin}{24.4}
+\newcommand{\EThreeTiedTwoXOneDepthThreeSolved}{0}
+\newcommand{\EThreeTiedTwoXOneDepthTwo}{24.9}
+\newcommand{\EThreeTiedTwoXOneDepthTwoList}{24.9}
+\newcommand{\EThreeTiedTwoXOneDepthTwoMax}{24.9}
+\newcommand{\EThreeTiedTwoXOneDepthTwoMin}{24.9}
+\newcommand{\EThreeTiedTwoXOneDepthTwoSolved}{0}
+\newcommand{\EThreeTiedTwoXOneParams}{113{,}297}
+\newcommand{\EThreeTiedTwoXOneSeeds}{1}
+\newcommand{\EThreeTiedTwoXThreeDepthFive}{23.0}
+\newcommand{\EThreeTiedTwoXThreeDepthFiveList}{23.0}
+\newcommand{\EThreeTiedTwoXThreeDepthFiveMax}{23.0}
+\newcommand{\EThreeTiedTwoXThreeDepthFiveMin}{23.0}
+\newcommand{\EThreeTiedTwoXThreeDepthFiveSolved}{0}
+\newcommand{\EThreeTiedTwoXThreeDepthFour}{23.2}
+\newcommand{\EThreeTiedTwoXThreeDepthFourList}{23.2}
+\newcommand{\EThreeTiedTwoXThreeDepthFourMax}{23.2}
+\newcommand{\EThreeTiedTwoXThreeDepthFourMin}{23.2}
+\newcommand{\EThreeTiedTwoXThreeDepthFourSolved}{0}
+\newcommand{\EThreeTiedTwoXThreeDepthOne}{100.0}
+\newcommand{\EThreeTiedTwoXThreeDepthOneList}{100.0}
+\newcommand{\EThreeTiedTwoXThreeDepthOneMax}{100.0}
+\newcommand{\EThreeTiedTwoXThreeDepthOneMin}{100.0}
+\newcommand{\EThreeTiedTwoXThreeDepthOneSolved}{1}
+\newcommand{\EThreeTiedTwoXThreeDepthSix}{22.3}
+\newcommand{\EThreeTiedTwoXThreeDepthSixList}{22.3}
+\newcommand{\EThreeTiedTwoXThreeDepthSixMax}{22.3}
+\newcommand{\EThreeTiedTwoXThreeDepthSixMin}{22.3}
+\newcommand{\EThreeTiedTwoXThreeDepthSixSolved}{0}
+\newcommand{\EThreeTiedTwoXThreeDepthThree}{46.7}
+\newcommand{\EThreeTiedTwoXThreeDepthThreeList}{46.7}
+\newcommand{\EThreeTiedTwoXThreeDepthThreeMax}{46.7}
+\newcommand{\EThreeTiedTwoXThreeDepthThreeMin}{46.7}
+\newcommand{\EThreeTiedTwoXThreeDepthThreeSolved}{0}
+\newcommand{\EThreeTiedTwoXThreeDepthTwo}{100.0}
+\newcommand{\EThreeTiedTwoXThreeDepthTwoList}{100.0}
+\newcommand{\EThreeTiedTwoXThreeDepthTwoMax}{100.0}
+\newcommand{\EThreeTiedTwoXThreeDepthTwoMin}{100.0}
+\newcommand{\EThreeTiedTwoXThreeDepthTwoSolved}{1}
+\newcommand{\EThreeTiedTwoXThreeParams}{113{,}297}
+\newcommand{\EThreeTiedTwoXThreeSeeds}{1}
+\newcommand{\EThreeTiedTwoXTwoDepthFive}{22.2}
+\newcommand{\EThreeTiedTwoXTwoDepthFiveList}{21.5, 21.2 and 23.8}
+\newcommand{\EThreeTiedTwoXTwoDepthFiveMax}{23.8}
+\newcommand{\EThreeTiedTwoXTwoDepthFiveMin}{21.2}
+\newcommand{\EThreeTiedTwoXTwoDepthFiveSolved}{0}
+\newcommand{\EThreeTiedTwoXTwoDepthFour}{23.4}
+\newcommand{\EThreeTiedTwoXTwoDepthFourList}{22.0, 23.0 and 25.1}
+\newcommand{\EThreeTiedTwoXTwoDepthFourMax}{25.1}
+\newcommand{\EThreeTiedTwoXTwoDepthFourMin}{22.0}
+\newcommand{\EThreeTiedTwoXTwoDepthFourSolved}{0}
+\newcommand{\EThreeTiedTwoXTwoDepthOne}{100.0}
+\newcommand{\EThreeTiedTwoXTwoDepthOneList}{100.0, 100.0 and 100.0}
+\newcommand{\EThreeTiedTwoXTwoDepthOneMax}{100.0}
+\newcommand{\EThreeTiedTwoXTwoDepthOneMin}{100.0}
+\newcommand{\EThreeTiedTwoXTwoDepthOneSolved}{3}
+\newcommand{\EThreeTiedTwoXTwoDepthSix}{21.8}
+\newcommand{\EThreeTiedTwoXTwoDepthSixList}{22.6, 21.4 and 21.6}
+\newcommand{\EThreeTiedTwoXTwoDepthSixMax}{22.6}
+\newcommand{\EThreeTiedTwoXTwoDepthSixMin}{21.4}
+\newcommand{\EThreeTiedTwoXTwoDepthSixSolved}{0}
+\newcommand{\EThreeTiedTwoXTwoDepthThree}{71.9}
+\newcommand{\EThreeTiedTwoXTwoDepthThreeList}{85.6, 100.0 and 30.0}
+\newcommand{\EThreeTiedTwoXTwoDepthThreeMax}{100.0}
+\newcommand{\EThreeTiedTwoXTwoDepthThreeMin}{30.0}
+\newcommand{\EThreeTiedTwoXTwoDepthThreeSolved}{1}
+\newcommand{\EThreeTiedTwoXTwoDepthTwo}{100.0}
+\newcommand{\EThreeTiedTwoXTwoDepthTwoList}{100.0, 100.0 and 100.0}
+\newcommand{\EThreeTiedTwoXTwoDepthTwoMax}{100.0}
+\newcommand{\EThreeTiedTwoXTwoDepthTwoMin}{100.0}
+\newcommand{\EThreeTiedTwoXTwoDepthTwoSolved}{3}
+\newcommand{\EThreeTiedTwoXTwoParams}{113{,}297}
+\newcommand{\EThreeTiedTwoXTwoSeeds}{3}
+\newcommand{\EThreeUntiedFourDepthFive}{21.6}
+\newcommand{\EThreeUntiedFourDepthFiveList}{20.6, 21.8 and 22.4}
+\newcommand{\EThreeUntiedFourDepthFiveMax}{22.4}
+\newcommand{\EThreeUntiedFourDepthFiveMin}{20.6}
+\newcommand{\EThreeUntiedFourDepthFiveSolved}{0}
+\newcommand{\EThreeUntiedFourDepthFour}{31.3}
+\newcommand{\EThreeUntiedFourDepthFourList}{22.7, 48.1 and 23.1}
+\newcommand{\EThreeUntiedFourDepthFourMax}{48.1}
+\newcommand{\EThreeUntiedFourDepthFourMin}{22.7}
+\newcommand{\EThreeUntiedFourDepthFourSolved}{0}
+\newcommand{\EThreeUntiedFourDepthOne}{100.0}
+\newcommand{\EThreeUntiedFourDepthOneList}{100.0, 100.0 and 100.0}
+\newcommand{\EThreeUntiedFourDepthOneMax}{100.0}
+\newcommand{\EThreeUntiedFourDepthOneMin}{100.0}
+\newcommand{\EThreeUntiedFourDepthOneSolved}{3}
+\newcommand{\EThreeUntiedFourDepthSix}{21.8}
+\newcommand{\EThreeUntiedFourDepthSixList}{21.2, 23.0 and 21.2}
+\newcommand{\EThreeUntiedFourDepthSixMax}{23.0}
+\newcommand{\EThreeUntiedFourDepthSixMin}{21.2}
+\newcommand{\EThreeUntiedFourDepthSixSolved}{0}
+\newcommand{\EThreeUntiedFourDepthThree}{55.0}
+\newcommand{\EThreeUntiedFourDepthThreeList}{30.1, 100.0 and 34.9}
+\newcommand{\EThreeUntiedFourDepthThreeMax}{100.0}
+\newcommand{\EThreeUntiedFourDepthThreeMin}{30.1}
+\newcommand{\EThreeUntiedFourDepthThreeSolved}{1}
+\newcommand{\EThreeUntiedFourDepthTwo}{89.3}
+\newcommand{\EThreeUntiedFourDepthTwoList}{76.4, 100.0 and 91.5}
+\newcommand{\EThreeUntiedFourDepthTwoMax}{100.0}
+\newcommand{\EThreeUntiedFourDepthTwoMin}{76.4}
+\newcommand{\EThreeUntiedFourDepthTwoSolved}{1}
+\newcommand{\EThreeUntiedFourParams}{213{,}265}
+\newcommand{\EThreeUntiedFourSeeds}{3}
+\newcommand{\EThreeUntiedSixDepthFive}{22.1}
+\newcommand{\EThreeUntiedSixDepthFiveList}{22.1}
+\newcommand{\EThreeUntiedSixDepthFiveMax}{22.1}
+\newcommand{\EThreeUntiedSixDepthFiveMin}{22.1}
+\newcommand{\EThreeUntiedSixDepthFiveSolved}{0}
+\newcommand{\EThreeUntiedSixDepthFour}{25.1}
+\newcommand{\EThreeUntiedSixDepthFourList}{25.1}
+\newcommand{\EThreeUntiedSixDepthFourMax}{25.1}
+\newcommand{\EThreeUntiedSixDepthFourMin}{25.1}
+\newcommand{\EThreeUntiedSixDepthFourSolved}{0}
+\newcommand{\EThreeUntiedSixDepthOne}{100.0}
+\newcommand{\EThreeUntiedSixDepthOneList}{100.0}
+\newcommand{\EThreeUntiedSixDepthOneMax}{100.0}
+\newcommand{\EThreeUntiedSixDepthOneMin}{100.0}
+\newcommand{\EThreeUntiedSixDepthOneSolved}{1}
+\newcommand{\EThreeUntiedSixDepthSix}{22.8}
+\newcommand{\EThreeUntiedSixDepthSixList}{22.8}
+\newcommand{\EThreeUntiedSixDepthSixMax}{22.8}
+\newcommand{\EThreeUntiedSixDepthSixMin}{22.8}
+\newcommand{\EThreeUntiedSixDepthSixSolved}{0}
+\newcommand{\EThreeUntiedSixDepthThree}{65.1}
+\newcommand{\EThreeUntiedSixDepthThreeList}{65.1}
+\newcommand{\EThreeUntiedSixDepthThreeMax}{65.1}
+\newcommand{\EThreeUntiedSixDepthThreeMin}{65.1}
+\newcommand{\EThreeUntiedSixDepthThreeSolved}{0}
+\newcommand{\EThreeUntiedSixDepthTwo}{95.2}
+\newcommand{\EThreeUntiedSixDepthTwoList}{95.2}
+\newcommand{\EThreeUntiedSixDepthTwoMax}{95.2}
+\newcommand{\EThreeUntiedSixDepthTwoMin}{95.2}
+\newcommand{\EThreeUntiedSixDepthTwoSolved}{1}
+\newcommand{\EThreeUntiedSixParams}{313{,}233}
+\newcommand{\EThreeUntiedSixSeeds}{1}
+\newcommand{\ETwoFisherP}{0.030}
+\newcommand{\ETwoFullAllSolved}{2}
+\newcommand{\ETwoFullComposeThree}{20.5}
+\newcommand{\ETwoFullComposeThreeList}{20.2, 20.8, 20.2 and 20.6}
+\newcommand{\ETwoFullComposeThreeMax}{20.8}
+\newcommand{\ETwoFullComposeThreeMin}{20.2}
+\newcommand{\ETwoFullComposeThreeSolved}{0}
+\newcommand{\ETwoFullComposeTwo}{74.9}
+\newcommand{\ETwoFullComposeTwoList}{100.0, 23.4, 100.0 and 76.3}
+\newcommand{\ETwoFullComposeTwoMax}{100.0}
+\newcommand{\ETwoFullComposeTwoMin}{23.4}
+\newcommand{\ETwoFullComposeTwoSolved}{2}
+\newcommand{\ETwoFullFollow}{92.8}
+\newcommand{\ETwoFullFollowList}{100.0, 71.2, 100.0 and 99.9}
+\newcommand{\ETwoFullFollowMax}{100.0}
+\newcommand{\ETwoFullFollowMin}{71.2}
+\newcommand{\ETwoFullFollowSolved}{3}
+\newcommand{\ETwoFullInduce}{83.7}
+\newcommand{\ETwoFullInduceList}{100.0, 35.0, 99.9 and 100.0}
+\newcommand{\ETwoFullInduceMax}{100.0}
+\newcommand{\ETwoFullInduceMin}{35.0}
+\newcommand{\ETwoFullInduceSolved}{3}
+\newcommand{\ETwoFullMixedTwo}{25.0}
+\newcommand{\ETwoFullMixedTwoList}{25.2, 26.2, 23.2 and 25.3}
+\newcommand{\ETwoFullMixedTwoMax}{26.2}
+\newcommand{\ETwoFullMixedTwoMin}{23.2}
+\newcommand{\ETwoFullMixedTwoSolved}{0}
+\newcommand{\ETwoFullSeeds}{4}
+\newcommand{\ETwoMaxSeeds}{4}
+\newcommand{\ETwoMinSeeds}{4}
+\newcommand{\ETwoMixedMax}{26.2}
+\newcommand{\ETwoNoComposeComposeThree}{20.5}
+\newcommand{\ETwoNoComposeComposeThreeList}{22.3, 20.7, 19.7 and 19.4}
+\newcommand{\ETwoNoComposeComposeThreeMax}{22.3}
+\newcommand{\ETwoNoComposeComposeThreeMin}{19.4}
+\newcommand{\ETwoNoComposeComposeThreeSolved}{0}
+\newcommand{\ETwoNoComposeComposeTwo}{19.5}
+\newcommand{\ETwoNoComposeComposeTwoList}{17.4, 19.3, 20.6 and 20.8}
+\newcommand{\ETwoNoComposeComposeTwoMax}{20.8}
+\newcommand{\ETwoNoComposeComposeTwoMin}{17.4}
+\newcommand{\ETwoNoComposeComposeTwoSolved}{0}
+\newcommand{\ETwoNoComposeFollow}{73.8}
+\newcommand{\ETwoNoComposeFollowList}{100.0, 100.0, 20.4 and 74.8}
+\newcommand{\ETwoNoComposeFollowMax}{100.0}
+\newcommand{\ETwoNoComposeFollowMin}{20.4}
+\newcommand{\ETwoNoComposeFollowSolved}{2}
+\newcommand{\ETwoNoComposeInduce}{99.8}
+\newcommand{\ETwoNoComposeInduceList}{100.0, 100.0, 99.3 and 100.0}
+\newcommand{\ETwoNoComposeInduceMax}{100.0}
+\newcommand{\ETwoNoComposeInduceMin}{99.3}
+\newcommand{\ETwoNoComposeInduceSolved}{4}
+\newcommand{\ETwoNoComposeMixedTwo}{20.0}
+\newcommand{\ETwoNoComposeMixedTwoList}{16.7, 17.8, 21.8 and 23.8}
+\newcommand{\ETwoNoComposeMixedTwoMax}{23.8}
+\newcommand{\ETwoNoComposeMixedTwoMin}{16.7}
+\newcommand{\ETwoNoComposeMixedTwoSolved}{0}
+\newcommand{\ETwoNoComposeSeeds}{4}
+\newcommand{\ETwoNoFollowComposeThree}{21.1}
+\newcommand{\ETwoNoFollowComposeThreeList}{20.5, 21.4, 21.7 and 20.7}
+\newcommand{\ETwoNoFollowComposeThreeMax}{21.7}
+\newcommand{\ETwoNoFollowComposeThreeMin}{20.5}
+\newcommand{\ETwoNoFollowComposeThreeSolved}{0}
+\newcommand{\ETwoNoFollowComposeTwo}{25.3}
+\newcommand{\ETwoNoFollowComposeTwoList}{26.4, 25.9, 25.0 and 23.8}
+\newcommand{\ETwoNoFollowComposeTwoMax}{26.4}
+\newcommand{\ETwoNoFollowComposeTwoMin}{23.8}
+\newcommand{\ETwoNoFollowComposeTwoSolved}{0}
+\newcommand{\ETwoNoFollowFollow}{19.7}
+\newcommand{\ETwoNoFollowFollowList}{19.1, 19.7, 19.4 and 20.8}
+\newcommand{\ETwoNoFollowFollowMax}{20.8}
+\newcommand{\ETwoNoFollowFollowMin}{19.1}
+\newcommand{\ETwoNoFollowFollowSolved}{0}
+\newcommand{\ETwoNoFollowInduce}{81.4}
+\newcommand{\ETwoNoFollowInduceList}{100.0, 100.0, 91.8 and 34.0}
+\newcommand{\ETwoNoFollowInduceMax}{100.0}
+\newcommand{\ETwoNoFollowInduceMin}{34.0}
+\newcommand{\ETwoNoFollowInduceSolved}{2}
+\newcommand{\ETwoNoFollowMixedTwo}{22.0}
+\newcommand{\ETwoNoFollowMixedTwoList}{25.1, 25.9, 17.4 and 19.4}
+\newcommand{\ETwoNoFollowMixedTwoMax}{25.9}
+\newcommand{\ETwoNoFollowMixedTwoMin}{17.4}
+\newcommand{\ETwoNoFollowMixedTwoSolved}{0}
+\newcommand{\ETwoNoFollowSeeds}{4}
+\newcommand{\ETwoNoInduceComposeThree}{20.4}
+\newcommand{\ETwoNoInduceComposeThreeList}{19.8, 20.5, 20.3 and 21.1}
+\newcommand{\ETwoNoInduceComposeThreeMax}{21.1}
+\newcommand{\ETwoNoInduceComposeThreeMin}{19.8}
+\newcommand{\ETwoNoInduceComposeThreeSolved}{0}
+\newcommand{\ETwoNoInduceComposeTwo}{100.0}
+\newcommand{\ETwoNoInduceComposeTwoList}{100.0, 100.0, 100.0 and 100.0}
+\newcommand{\ETwoNoInduceComposeTwoMax}{100.0}
+\newcommand{\ETwoNoInduceComposeTwoMin}{100.0}
+\newcommand{\ETwoNoInduceComposeTwoSolved}{4}
+\newcommand{\ETwoNoInduceFollow}{100.0}
+\newcommand{\ETwoNoInduceFollowList}{100.0, 100.0, 100.0 and 100.0}
+\newcommand{\ETwoNoInduceFollowMax}{100.0}
+\newcommand{\ETwoNoInduceFollowMin}{100.0}
+\newcommand{\ETwoNoInduceFollowSolved}{4}
+\newcommand{\ETwoNoInduceInduce}{20.4}
+\newcommand{\ETwoNoInduceInduceList}{20.7, 20.6, 20.6 and 19.5}
+\newcommand{\ETwoNoInduceInduceMax}{20.7}
+\newcommand{\ETwoNoInduceInduceMin}{19.5}
+\newcommand{\ETwoNoInduceInduceSolved}{0}
+\newcommand{\ETwoNoInduceMixedTwo}{17.0}
+\newcommand{\ETwoNoInduceMixedTwoList}{9.1, 19.0, 20.0 and 20.1}
+\newcommand{\ETwoNoInduceMixedTwoMax}{20.1}
+\newcommand{\ETwoNoInduceMixedTwoMin}{9.1}
+\newcommand{\ETwoNoInduceMixedTwoSolved}{0}
+\newcommand{\ETwoNoInduceSeeds}{4}
+\newcommand{\ETwoPoolComposeThreeAllRuns}{16}
+\newcommand{\ETwoPoolComposeThreeAllSolved}{0}
+\newcommand{\ETwoPoolComposeWithFollowRuns}{8}
+\newcommand{\ETwoPoolComposeWithFollowSolved}{6}
+\newcommand{\ETwoPoolComposeWithoutFollowRuns}{4}
+\newcommand{\ETwoPoolComposeWithoutFollowSolved}{0}
+\newcommand{\ETwoPoolFollowTrainedRuns}{12}
+\newcommand{\ETwoPoolFollowTrainedSolved}{9}
+\newcommand{\ETwoPoolInduceTrainedRuns}{12}
+\newcommand{\ETwoPoolInduceTrainedSolved}{9}
+\newcommand{\ETwoPoolMixedAllRuns}{16}
+\newcommand{\ETwoPoolMixedAllSolved}{0}
+\newcommand{\ETwoRunsAll}{16}
+\newcommand{\GuessFive}{20.9}
+\newcommand{\GuessFour}{23.7}
+\newcommand{\GuessOne}{20.0}
+\newcommand{\GuessSix}{22.4}
+\newcommand{\GuessThree}{22.2}
+\newcommand{\GuessTwo}{26.7}
+\newcommand{\MaxRunMinutes}{23}
+\newcommand{\MinRunMinutes}{6}
+\newcommand{\NparamsMain}{113{,}297}
+\newcommand{\NparamsRounded}{113 thousand}
+\newcommand{\TotalCpuHours}{5.4}
+\newcommand{\TotalRuns}{38}

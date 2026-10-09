@@ -1,0 +1,117 @@
+{
+ "cfg": {
+  "d": 64,
+  "heads": 4,
+  "layers": 2,
+  "loops": 2,
+  "lr": 0.002,
+  "bs": 32,
+  "nq": 8,
+  "var_def": true,
+  "steps": 5000,
+  "eval_every": 500,
+  "seed": 1
+ },
+ "n_params": 113297,
+ "final": {
+  "step": 5000,
+  "follow": 0.71225,
+  "compose2": 0.23425,
+  "induce": 0.34975,
+  "mixed2": 0.262,
+  "compose3": 0.2085
+ },
+ "curve": [
+  {
+   "step": 0,
+   "follow": 0.214,
+   "compose2": 0.0,
+   "induce": 0.178,
+   "mixed2": 0.0,
+   "compose3": 0.176
+  },
+  {
+   "step": 500,
+   "follow": 0.202,
+   "compose2": 0.208,
+   "induce": 0.23,
+   "mixed2": 0.176,
+   "compose3": 0.232
+  },
+  {
+   "step": 1000,
+   "follow": 0.196,
+   "compose2": 0.152,
+   "induce": 0.256,
+   "mixed2": 0.23,
+   "compose3": 0.24
+  },
+  {
+   "step": 1500,
+   "follow": 0.222,
+   "compose2": 0.206,
+   "induce": 0.272,
+   "mixed2": 0.204,
+   "compose3": 0.176
+  },
+  {
+   "step": 2000,
+   "follow": 0.184,
+   "compose2": 0.184,
+   "induce": 0.284,
+   "mixed2": 0.202,
+   "compose3": 0.21
+  },
+  {
+   "step": 2500,
+   "follow": 0.204,
+   "compose2": 0.212,
+   "induce": 0.228,
+   "mixed2": 0.23,
+   "compose3": 0.19
+  },
+  {
+   "step": 3000,
+   "follow": 0.408,
+   "compose2": 0.19,
+   "induce": 0.234,
+   "mixed2": 0.23,
+   "compose3": 0.196
+  },
+  {
+   "step": 3500,
+   "follow": 0.592,
+   "compose2": 0.224,
+   "induce": 0.292,
+   "mixed2": 0.22,
+   "compose3": 0.234
+  },
+  {
+   "step": 4000,
+   "follow": 0.67,
+   "compose2": 0.234,
+   "induce": 0.31,
+   "mixed2": 0.24,
+   "compose3": 0.216
+  },
+  {
+   "step": 4500,
+   "follow": 0.708,
+   "compose2": 0.22,
+   "induce": 0.342,
+   "mixed2": 0.228,
+   "compose3": 0.192
+  },
+  {
+   "step": 5000,
+   "follow": 0.71225,
+   "compose2": 0.23425,
+   "induce": 0.34975,
+   "mixed2": 0.262,
+   "compose3": 0.2085
+  }
+ ],
+ "seconds": 387.6663534641266,
+ "exp": "e2",
+ "name": "full"
+}

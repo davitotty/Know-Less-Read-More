@@ -1,0 +1,97 @@
+[e2] full seed=2
+  step     0 |      1s | follow=0.000 compose2=0.000 induce=0.000 mixed2=0.000 compose3=0.206
+  step   500 |     43s | follow=0.216 compose2=0.180 induce=0.218 mixed2=0.198 compose3=0.194
+  step  1000 |     85s | follow=0.166 compose2=0.258 induce=0.186 mixed2=0.200 compose3=0.264
+  step  1500 |    124s | follow=0.880 compose2=0.210 induce=0.272 mixed2=0.156 compose3=0.238
+  step  2000 |    164s | follow=1.000 compose2=0.276 induce=0.324 mixed2=0.230 compose3=0.222
+  step  2500 |    204s | follow=0.992 compose2=0.998 induce=0.396 mixed2=0.276 compose3=0.188
+  step  3000 |    242s | follow=1.000 compose2=1.000 induce=0.490 mixed2=0.264 compose3=0.190
+  step  3500 |    280s | follow=1.000 compose2=1.000 induce=0.788 mixed2=0.236 compose3=0.200
+  step  4000 |    319s | follow=1.000 compose2=1.000 induce=0.950 mixed2=0.234 compose3=0.198
+  step  4500 |    358s | follow=1.000 compose2=1.000 induce=0.990 mixed2=0.252 compose3=0.206
+  step  5000 |    404s | follow=1.000 compose2=1.000 induce=0.999 mixed2=0.232 compose3=0.202
+[e2] no_induce seed=2
+  step     0 |      1s | follow=0.000 compose2=0.000 induce=0.000 mixed2=0.000 compose3=0.206
+  step   500 |     43s | follow=0.222 compose2=0.230 induce=0.176 mixed2=0.200 compose3=0.192
+  step  1000 |     84s | follow=0.502 compose2=0.206 induce=0.172 mixed2=0.156 compose3=0.246
+  step  1500 |    125s | follow=1.000 compose2=0.578 induce=0.204 mixed2=0.184 compose3=0.224
+  step  2000 |    167s | follow=1.000 compose2=0.688 induce=0.190 mixed2=0.158 compose3=0.280
+  step  2500 |    207s | follow=1.000 compose2=1.000 induce=0.210 mixed2=0.218 compose3=0.196
+  step  3000 |    248s | follow=1.000 compose2=1.000 induce=0.198 mixed2=0.166 compose3=0.192
+  step  3500 |    290s | follow=1.000 compose2=1.000 induce=0.184 mixed2=0.200 compose3=0.198
+  step  4000 |    332s | follow=1.000 compose2=1.000 induce=0.186 mixed2=0.198 compose3=0.202
+  step  4500 |    373s | follow=1.000 compose2=1.000 induce=0.234 mixed2=0.198 compose3=0.188
+  step  5000 |    420s | follow=1.000 compose2=1.000 induce=0.206 mixed2=0.200 compose3=0.203
+[e2] no_compose seed=2
+  step     0 |      1s | follow=0.000 compose2=0.000 induce=0.000 mixed2=0.000 compose3=0.206
+  step   500 |     38s | follow=0.170 compose2=0.194 induce=0.240 mixed2=0.208 compose3=0.186
+  step  1000 |     75s | follow=0.198 compose2=0.210 induce=0.260 mixed2=0.274 compose3=0.150
+  step  1500 |    113s | follow=0.230 compose2=0.218 induce=0.310 mixed2=0.232 compose3=0.184
+  step  2000 |    150s | follow=0.204 compose2=0.212 induce=0.382 mixed2=0.262 compose3=0.208
+  step  2500 |    186s | follow=0.188 compose2=0.212 induce=0.686 mixed2=0.282 compose3=0.202
+  step  3000 |    221s | follow=0.194 compose2=0.214 induce=0.882 mixed2=0.226 compose3=0.260
+  step  3500 |    258s | follow=0.210 compose2=0.226 induce=0.988 mixed2=0.262 compose3=0.196
+  step  4000 |    294s | follow=0.182 compose2=0.228 induce=0.988 mixed2=0.228 compose3=0.234
+  step  4500 |    330s | follow=0.224 compose2=0.202 induce=0.994 mixed2=0.266 compose3=0.188
+  step  5000 |    375s | follow=0.204 compose2=0.206 induce=0.993 mixed2=0.218 compose3=0.197
+[e2] no_follow seed=2
+  step     0 |      1s | follow=0.000 compose2=0.000 induce=0.000 mixed2=0.000 compose3=0.206
+  step   500 |     41s | follow=0.170 compose2=0.212 induce=0.252 mixed2=0.178 compose3=0.188
+  step  1000 |     81s | follow=0.208 compose2=0.210 induce=0.236 mixed2=0.218 compose3=0.174
+  step  1500 |    121s | follow=0.214 compose2=0.194 induce=0.240 mixed2=0.200 compose3=0.226
+  step  2000 |    160s | follow=0.212 compose2=0.212 induce=0.278 mixed2=0.226 compose3=0.224
+  step  2500 |    200s | follow=0.196 compose2=0.220 induce=0.330 mixed2=0.164 compose3=0.172
+  step  3000 |    240s | follow=0.196 compose2=0.230 induce=0.312 mixed2=0.198 compose3=0.226
+  step  3500 |    280s | follow=0.184 compose2=0.240 induce=0.492 mixed2=0.172 compose3=0.196
+  step  4000 |    320s | follow=0.212 compose2=0.256 induce=0.688 mixed2=0.166 compose3=0.190
+  step  4500 |    359s | follow=0.200 compose2=0.244 induce=0.912 mixed2=0.178 compose3=0.234
+  step  5000 |    405s | follow=0.194 compose2=0.250 induce=0.918 mixed2=0.174 compose3=0.217
+[e2] full seed=3
+  step     0 |      1s | follow=0.000 compose2=0.000 induce=0.000 mixed2=0.000 compose3=0.212
+  step   500 |     39s | follow=0.210 compose2=0.220 induce=0.216 mixed2=0.168 compose3=0.192
+  step  1000 |     79s | follow=0.174 compose2=0.192 induce=0.266 mixed2=0.228 compose3=0.194
+  step  1500 |    120s | follow=0.194 compose2=0.204 induce=0.266 mixed2=0.234 compose3=0.194
+  step  2000 |    159s | follow=0.272 compose2=0.196 induce=0.410 mixed2=0.272 compose3=0.236
+  step  2500 |    198s | follow=0.822 compose2=0.268 induce=0.638 mixed2=0.264 compose3=0.224
+  step  3000 |    238s | follow=0.876 compose2=0.352 induce=0.986 mixed2=0.264 compose3=0.216
+  step  3500 |    277s | follow=0.980 compose2=0.622 induce=1.000 mixed2=0.240 compose3=0.224
+  step  4000 |    316s | follow=0.996 compose2=0.710 induce=1.000 mixed2=0.260 compose3=0.230
+  step  4500 |    354s | follow=1.000 compose2=0.750 induce=1.000 mixed2=0.238 compose3=0.252
+  step  5000 |    400s | follow=0.999 compose2=0.763 induce=1.000 mixed2=0.253 compose3=0.206
+[e2] no_induce seed=3
+  step     0 |      1s | follow=0.000 compose2=0.000 induce=0.000 mixed2=0.000 compose3=0.212
+  step   500 |     41s | follow=0.218 compose2=0.208 induce=0.124 mixed2=0.174 compose3=0.208
+  step  1000 |     80s | follow=0.726 compose2=0.178 induce=0.196 mixed2=0.176 compose3=0.262
+  step  1500 |    120s | follow=1.000 compose2=0.766 induce=0.232 mixed2=0.198 compose3=0.204
+  step  2000 |    161s | follow=1.000 compose2=0.918 induce=0.196 mixed2=0.206 compose3=0.238
+  step  2500 |    202s | follow=1.000 compose2=0.908 induce=0.242 mixed2=0.216 compose3=0.214
+  step  3000 |    243s | follow=1.000 compose2=0.998 induce=0.214 mixed2=0.186 compose3=0.202
+  step  3500 |    283s | follow=1.000 compose2=1.000 induce=0.168 mixed2=0.184 compose3=0.222
+  step  4000 |    324s | follow=1.000 compose2=1.000 induce=0.190 mixed2=0.216 compose3=0.194
+  step  4500 |    364s | follow=1.000 compose2=1.000 induce=0.194 mixed2=0.204 compose3=0.200
+  step  5000 |    411s | follow=1.000 compose2=1.000 induce=0.195 mixed2=0.201 compose3=0.211
+[e2] no_compose seed=3
+  step     0 |      1s | follow=0.000 compose2=0.000 induce=0.000 mixed2=0.000 compose3=0.212
+  step   500 |     37s | follow=0.198 compose2=0.200 induce=0.260 mixed2=0.210 compose3=0.224
+  step  1000 |     74s | follow=0.220 compose2=0.214 induce=0.228 mixed2=0.216 compose3=0.212
+  step  1500 |    110s | follow=0.182 compose2=0.196 induce=0.322 mixed2=0.228 compose3=0.250
+  step  2000 |    146s | follow=0.192 compose2=0.194 induce=0.352 mixed2=0.224 compose3=0.212
+  step  2500 |    181s | follow=0.206 compose2=0.218 induce=0.398 mixed2=0.260 compose3=0.204
+  step  3000 |    217s | follow=0.188 compose2=0.208 induce=0.904 mixed2=0.248 compose3=0.214
+  step  3500 |    254s | follow=0.208 compose2=0.202 induce=0.998 mixed2=0.234 compose3=0.178
+  step  4000 |    289s | follow=0.418 compose2=0.208 induce=1.000 mixed2=0.290 compose3=0.178
+  step  4500 |    326s | follow=0.720 compose2=0.158 induce=1.000 mixed2=0.276 compose3=0.174
+  step  5000 |    368s | follow=0.748 compose2=0.208 induce=1.000 mixed2=0.237 compose3=0.194
+[e2] no_follow seed=3
+  step     0 |      1s | follow=0.000 compose2=0.000 induce=0.000 mixed2=0.000 compose3=0.212
+  step   500 |     42s | follow=0.212 compose2=0.198 induce=0.222 mixed2=0.198 compose3=0.202
+  step  1000 |     83s | follow=0.200 compose2=0.224 induce=0.226 mixed2=0.206 compose3=0.228
+  step  1500 |    123s | follow=0.198 compose2=0.220 induce=0.276 mixed2=0.166 compose3=0.222
+  step  2000 |    163s | follow=0.180 compose2=0.192 induce=0.266 mixed2=0.152 compose3=0.210
+  step  2500 |    203s | follow=0.182 compose2=0.210 induce=0.308 mixed2=0.154 compose3=0.216
+  step  3000 |    244s | follow=0.144 compose2=0.200 induce=0.274 mixed2=0.206 compose3=0.198
+  step  3500 |    286s | follow=0.228 compose2=0.218 induce=0.280 mixed2=0.176 compose3=0.224
+  step  4000 |    326s | follow=0.210 compose2=0.222 induce=0.318 mixed2=0.192 compose3=0.206
+  step  4500 |    364s | follow=0.180 compose2=0.254 induce=0.314 mixed2=0.226 compose3=0.180
+  step  5000 |    410s | follow=0.207 compose2=0.238 induce=0.340 mixed2=0.194 compose3=0.207
+QUEUE_A2_DONE

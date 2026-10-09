@@ -1,0 +1,17 @@
+[e3] tied_2x3 seed=0
+  step     0 |      2s | depth1=0.198 depth2=0.000 depth3=0.000 depth4=0.000 depth5=0.188 depth6=0.000
+  step   500 |     75s | depth1=0.180 depth2=0.178 depth3=0.216 depth4=0.218 depth5=0.190 depth6=0.192
+  step  1000 |    149s | depth1=0.206 depth2=0.178 depth3=0.220 depth4=0.188 depth5=0.208 depth6=0.218
+  step  1500 |    222s | depth1=0.670 depth2=0.242 depth3=0.248 depth4=0.210 depth5=0.254 depth6=0.194
+  step  2000 |    292s | depth1=1.000 depth2=0.538 depth3=0.232 depth4=0.220 depth5=0.244 depth6=0.222
+  step  2500 |    364s | depth1=1.000 depth2=0.914 depth3=0.238 depth4=0.214 depth5=0.202 depth6=0.198
+  step  3000 |    438s | depth1=1.000 depth2=0.996 depth3=0.246 depth4=0.226 depth5=0.226 depth6=0.194
+  step  3500 |    510s | depth1=1.000 depth2=1.000 depth3=0.298 depth4=0.250 depth5=0.216 depth6=0.226
+  step  4000 |    582s | depth1=1.000 depth2=0.996 depth3=0.374 depth4=0.242 depth5=0.212 depth6=0.234
+  step  4500 |    655s | depth1=1.000 depth2=1.000 depth3=0.498 depth4=0.226 depth5=0.262 depth6=0.212
+  step  5000 |    727s | depth1=1.000 depth2=0.998 depth3=0.642 depth4=0.216 depth5=0.238 depth6=0.216
+  step  5500 |    798s | depth1=1.000 depth2=1.000 depth3=0.882 depth4=0.226 depth5=0.208 depth6=0.236
+  step  6000 |    873s | depth1=1.000 depth2=1.000 depth3=0.932 depth4=0.250 depth5=0.220 depth6=0.204
+  step  6500 |    946s | depth1=1.000 depth2=1.000 depth3=0.952 depth4=0.226 depth5=0.222 depth6=0.206
+  step  7000 |   1018s | depth1=1.000 depth2=1.000 depth3=0.948 depth4=0.220 depth5=0.214 depth6=0.242
+  step  7500 |   1093s | depth1=1.000 depth2=1.000 depth3=0.954 depth4=0.214 depth5=0.208 depth6=0.250

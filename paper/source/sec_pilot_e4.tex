@@ -1,0 +1,18 @@
+Our first training sets tabulated permutations, as the test sets do, and in exploratory runs the models did not learn to look a value up (Appendix~\ref{app:negative}).
+E4 examines this in isolation.
+Two groups of models are trained on \skill{follow} exercises only, with identical settings except for one: in one group the tabulated functions of the training textbooks are arbitrary maps, in the other they are permutations.
+Both groups are tested on new textbooks of both kinds.
+
+\begin{table}[t]
+\centering\small
+\input{gen/tab_e4.tex}
+\caption{E4: \skill{follow} accuracy (\%) after training on \skill{follow} only, with training tables that are arbitrary maps or permutations. Mean over seeds, followed by the number of seeds that ended at 95\% or above out of the number run. The last column gives, per seed, the first of the checkpoints (taken every 500 steps) at which accuracy on new permutation textbooks was at least 95\%. The guessing level is 20\% on permutation textbooks; on textbooks of arbitrary maps a model can exceed it by guessing a frequent symbol.}
+\label{tab:e4}
+\end{table}
+
+\input{sec_pilot_e4_reading.tex}
+
+Our explanation, which we have not tested directly, is the following.
+When every row is a permutation, the multiset of symbols in a row is the same in every episode, so an attention pattern that spreads over a row, or over the whole table, carries no information about the answer; only attention concentrated on the single correct cell does, and from a diffuse start there is little gradient leading towards it.
+When rows are arbitrary maps, the symbols that occur more often in row $j$ are more likely to be the answer to a question about $f_j$, so attending to the right row already lowers the loss, and from there the model can sharpen onto the right cell.
+If this account is correct, it is a statement about curriculum design: a reading skill may be learnable in practice only when the training distribution also rewards a cruder version of it.

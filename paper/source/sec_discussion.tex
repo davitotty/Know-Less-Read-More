@@ -1,0 +1,39 @@
+\paragraph{What the pilot suggests about the hypothesis.}
+Three revisions to the proposal of Section~\ref{sec:curriculum} follow from the results.
+
+First, \emph{a base curriculum is ordered, not just a set.}
+Models trained on two-step exercises without one-step exercises acquired neither in any seed, although a two-step exercise contains all the supervision that a one-step exercise does.
+The lower layer was needed as a stepping stone to the higher one, in line with the old observation that it helps to start small \citep{elman1993starting,bengio2009curriculum}.
+The symmetry effect of Section~\ref{sec:symmetry} points the same way from another direction: whether a skill was learned within the budget depended on whether the training distribution rewarded a cruder version of it.
+
+Second, \emph{the curriculum has to list combinations as well as skills.}
+Models that could follow, compose and induce, each without error, could not apply an induced rule inside a composition.
+At this scale, having two skills in the weights did not provide their combination.
+Either the curriculum must train combinations explicitly, in which case the interesting question becomes how many combinations are enough for the rest to follow, or the ability to combine appears only with scale; the pilot cannot tell these apart.
+The same holds for chains longer than those seen in training, which no model followed.
+
+Third, \emph{variety is the resource to budget.}
+With the number of training episodes held fixed, the number of distinct textbooks decided whether the model read or memorised.
+For a curriculum designer this means that the cost of a skill should be counted in distinct rule sets, not in examples.
+
+\paragraph{Limitations.}
+The pilot was designed to be cheap, and its limits are severe.
+\begin{itemize}
+\item \emph{Scale.} The models have between one and three hundred thousand parameters. Nothing here is evidence about models with a hundred million.
+\item \emph{Retrieval by address, not by content.} All results use the aligned layout, in which the model knows where on the page each value sits. Retrieval by content was not learned within our budget (Section~\ref{sec:negative}). What the pilot shows is that a small model can use a table whose layout it knows and whose contents it has never seen; that is weaker than reading a text.
+\item \emph{One domain.} Five symbols, three tabulated functions, one family of induced rules, chains of at most six steps, no natural language.
+\item \emph{Few seeds and a fixed budget.} Conditions have between one and four seeds. Learning in this setting proceeds in abrupt steps whose timing varies between seeds, and the learning rate decays to zero at a fixed step, so a run that scores at chance may have been a few hundred steps away from the transition. ``Not learned'' always means ``not learned within the stated budget''.
+\item \emph{Untested layers and levels.} C0 is assumed by the layout, C5 is not tested, and neither is G3.
+\item \emph{No per-condition tuning.} Hyperparameters were chosen in exploratory runs with the full training mix and reused everywhere, which may favour some conditions.
+\item \emph{A mild distribution shift at test time.} Training tables are arbitrary maps and test tables are permutations. This keeps the guessing level of a look-up exact and works against the models.
+\end{itemize}
+
+\paragraph{Latent computation and oversight.}
+A model that composes rules across loops, without writing the intermediate values, performs reasoning that cannot be read from its output.
+In an open-book setting the facts it relies on are at least visible in the context, but the steps are not.
+Because the legibility of intermediate reasoning is regarded as a safety-relevant property \citep{korbak2025monitorability}, the full-scale study should include a condition in which intermediate values are written to a scratchpad \citep{nye2021scratchpad} and should report what the unwritten version gains over it.
+
+\paragraph{Relation to retrieval.}
+Our question is independent of how the material reaches the context.
+A retrieval system decides which pages to show \citep{lewis2020rag}; the base curriculum is about what the reader of those pages must already be able to do.
+If that turns out to be small, a small reader paired with a good library becomes an attractive design.

@@ -1,0 +1,12 @@
+We train four models on new textbooks only ($M=\infty$): one on all three exercise types in equal proportion, and three with one type left out and the remaining two in equal proportion.
+\skill{compose} is trained at depth 2 only.
+All four are tested on the three trained types and on two G2 tests: \skill{mixed} at depth 2, which combines \skill{compose} with \skill{induce}, and \skill{compose} at depth 3.
+
+\begin{table}[t]
+\centering\small
+\input{gen/tab_e2.tex}
+\caption{E2: accuracy (\%) on new textbooks after training with one exercise type left out. Each cell gives the mean over seeds, followed by the number of seeds that ended at 95\% or above out of the number run. Guessing levels: 20\% for \skill{follow}, 25\% for \skill{induce}, \GuessTwo\% for \skill{compose}-2, \GuessThree\% for \skill{compose}-3, and 26.7\% on \skill{mixed}-2 for a model that has induced $g$ but cannot combine it with a table look-up (see text).}
+\label{tab:e2}
+\end{table}
+
+\input{sec_pilot_e2_reading.tex}

@@ -1,0 +1,14 @@
+[e2] full seed=0
+  step     0 |      1s | follow=0.198 compose2=0.190 induce=0.202 mixed2=0.176 compose3=0.000
+  step   500 |     40s | follow=0.234 compose2=0.208 induce=0.236 mixed2=0.228 compose3=0.210
+  step  1000 |     78s | follow=0.174 compose2=0.234 induce=0.330 mixed2=0.218 compose3=0.192
+  step  1500 |    115s | follow=0.250 compose2=0.224 induce=0.296 mixed2=0.250 compose3=0.206
+  step  2000 |    154s | follow=1.000 compose2=0.188 induce=0.422 mixed2=0.300 compose3=0.230
+  step  2500 |    193s | follow=1.000 compose2=0.668 induce=0.526 mixed2=0.290 compose3=0.230
+  step  3000 |    232s | follow=1.000 compose2=0.820 induce=0.726 mixed2=0.254 compose3=0.192
+  step  3500 |    271s | follow=1.000 compose2=0.828 induce=1.000 mixed2=0.282 compose3=0.222
+  step  4000 |    311s | follow=1.000 compose2=0.828 induce=1.000 mixed2=0.266 compose3=0.200
+  step  4500 |    349s | follow=1.000 compose2=0.818 induce=1.000 mixed2=0.276 compose3=0.214
+  step  5000 |    388s | follow=1.000 compose2=0.810 induce=1.000 mixed2=0.252 compose3=0.240
+  step  5500 |    428s | follow=1.000 compose2=0.820 induce=1.000 mixed2=0.222 compose3=0.248
+  step  6000 |    474s | follow=1.000 compose2=0.827 induce=1.000 mixed2=0.217 compose3=0.215
