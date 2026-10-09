@@ -1,0 +1,347 @@
+\begin{thebibliography}{46}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aky{\"u}rek et~al.(2023)Aky{\"u}rek, Schuurmans, Andreas, Ma, and
+  Zhou]{akyurek2023what}
+Ekin Aky{\"u}rek, Dale Schuurmans, Jacob Andreas, Tengyu Ma, and Denny Zhou.
+\newblock What learning algorithm is in-context learning? {I}nvestigations with
+  linear models.
+\newblock In \emph{International Conference on Learning Representations}, 2023.
+\newblock arXiv:2211.15661.
+
+\bibitem[Bae et~al.(2025)Bae, Kim, Bayat, Kim, Ha, Schuster, Fisch,
+  Harutyunyan, Ji, Courville, and Yun]{bae2025mor}
+Sangmin Bae, Yujin Kim, Reza Bayat, Sungnyun Kim, Jiyoun Ha, Tal Schuster, Adam
+  Fisch, Hrayr Harutyunyan, Ziwei Ji, Aaron Courville, and Se-Young Yun.
+\newblock Mixture-of-recursions: Learning dynamic recursive depths for adaptive
+  token-level computation.
+\newblock \emph{arXiv preprint arXiv:2507.10524}, 2025.
+
+\bibitem[Bai et~al.(2023)Bai, Chen, Wang, Xiong, and Mei]{bai2023statisticians}
+Yu~Bai, Fan Chen, Huan Wang, Caiming Xiong, and Song Mei.
+\newblock Transformers as statisticians: Provable in-context learning with
+  in-context algorithm selection.
+\newblock \emph{arXiv preprint arXiv:2306.04637}, 2023.
+
+\bibitem[Bengio et~al.(2009)Bengio, Louradour, Collobert, and
+  Weston]{bengio2009curriculum}
+Yoshua Bengio, J{\'e}r{\^o}me Louradour, Ronan Collobert, and Jason Weston.
+\newblock Curriculum learning.
+\newblock In \emph{International Conference on Machine Learning}, 2009.
+
+\bibitem[Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal,
+  Neelakantan, Shyam, Sastry, Askell, et~al.]{brown2020gpt3}
+Tom~B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan,
+  Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda
+  Askell, et~al.
+\newblock Language models are few-shot learners.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2020.
+\newblock arXiv:2005.14165.
+
+\bibitem[Chan et~al.(2022)Chan, Santoro, Lampinen, Wang, Singh, Richemond,
+  McClelland, and Hill]{chan2022data}
+Stephanie C.~Y. Chan, Adam Santoro, Andrew~K. Lampinen, Jane~X. Wang, Aaditya
+  Singh, Pierre~H. Richemond, Jay McClelland, and Felix Hill.
+\newblock Data distributional properties drive emergent in-context learning in
+  transformers.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2022.
+\newblock arXiv:2205.05055.
+
+\bibitem[Chen et~al.(2022)Chen, Zhong, Zha, Karypis, and He]{chen2022tuning}
+Yanda Chen, Ruiqi Zhong, Sheng Zha, George Karypis, and He~He.
+\newblock Meta-learning via language model in-context tuning.
+\newblock In \emph{Annual Meeting of the Association for Computational
+  Linguistics}, 2022.
+\newblock arXiv:2110.07814.
+
+\bibitem[Dehghani et~al.(2019)Dehghani, Gouws, Vinyals, Uszkoreit, and
+  Kaiser]{dehghani2019universal}
+Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, and {\L}ukasz
+  Kaiser.
+\newblock Universal transformers.
+\newblock In \emph{International Conference on Learning Representations}, 2019.
+\newblock arXiv:1807.03819.
+
+\bibitem[Eldan and Li(2023)]{eldan2023tinystories}
+Ronen Eldan and Yuanzhi Li.
+\newblock {TinyStories}: How small can language models be and still speak
+  coherent {E}nglish?
+\newblock \emph{arXiv preprint arXiv:2305.07759}, 2023.
+
+\bibitem[Elman(1993)]{elman1993starting}
+Jeffrey~L. Elman.
+\newblock Learning and development in neural networks: The importance of
+  starting small.
+\newblock \emph{Cognition}, 48\penalty0 (1):\penalty0 71--99, 1993.
+
+\bibitem[Fu(2025)]{fu2025easy}
+Xiang Fu.
+\newblock Can an easy-to-hard curriculum make reasoning emerge in small
+  language models? {E}vidence from a four-stage curriculum on {GPT}-2.
+\newblock \emph{arXiv preprint arXiv:2505.11643}, 2025.
+
+\bibitem[Garg et~al.(2022)Garg, Tsipras, Liang, and Valiant]{garg2022what}
+Shivam Garg, Dimitris Tsipras, Percy Liang, and Gregory Valiant.
+\newblock What can transformers learn in-context? {A} case study of simple
+  function classes.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2022.
+\newblock arXiv:2208.01066.
+
+\bibitem[Geiping et~al.(2025)Geiping, McLeish, Jain, Kirchenbauer, Singh,
+  Bartoldson, Kailkhura, Bhatele, and Goldstein]{geiping2025recurrent}
+Jonas Geiping, Sean McLeish, Neel Jain, John Kirchenbauer, Siddharth Singh,
+  Brian~R. Bartoldson, Bhavya Kailkhura, Abhinav Bhatele, and Tom Goldstein.
+\newblock Scaling up test-time compute with latent reasoning: A recurrent depth
+  approach.
+\newblock \emph{arXiv preprint arXiv:2502.05171}, 2025.
+
+\bibitem[Giannou et~al.(2023)Giannou, Rajput, Sohn, Lee, Lee, and
+  Papailiopoulos]{giannou2023looped}
+Angeliki Giannou, Shashank Rajput, Jy-yong Sohn, Kangwook Lee, Jason~D. Lee,
+  and Dimitris Papailiopoulos.
+\newblock Looped transformers as programmable computers.
+\newblock In \emph{International Conference on Machine Learning}, 2023.
+\newblock arXiv:2301.13196.
+
+\bibitem[Goddard et~al.(2025)Goddard, Smith, Ngampruetikorn, and
+  Schwab]{goddard2025when}
+Chase Goddard, Lindsay~M. Smith, Vudtiwat Ngampruetikorn, and David~J. Schwab.
+\newblock When can in-context learning generalize out of task distribution?
+\newblock In \emph{International Conference on Machine Learning}, volume 267 of
+  \emph{PMLR}, pages 19585--19599, 2025.
+\newblock arXiv:2506.05574.
+
+\bibitem[Graves(2016)]{graves2016act}
+Alex Graves.
+\newblock Adaptive computation time for recurrent neural networks.
+\newblock \emph{arXiv preprint arXiv:1603.08983}, 2016.
+
+\bibitem[Gunasekar et~al.(2023)Gunasekar, Zhang, Aneja, Mendes, Del~Giorno,
+  Gopi, Javaheripi, Kauffmann, de~Rosa, Saarikivi,
+  et~al.]{gunasekar2023textbooks}
+Suriya Gunasekar, Yi~Zhang, Jyoti Aneja, Caio C{\'e}sar~Teodoro Mendes, Allie
+  Del~Giorno, Sivakanth Gopi, Mojan Javaheripi, Piero Kauffmann, Gustavo
+  de~Rosa, Olli Saarikivi, et~al.
+\newblock Textbooks are all you need.
+\newblock \emph{arXiv preprint arXiv:2306.11644}, 2023.
+
+\bibitem[Hao et~al.(2025)Hao, Sukhbaatar, Su, Li, Hu, Weston, and
+  Tian]{hao2025coconut}
+Shibo Hao, Sainbayar Sukhbaatar, DiJia Su, Xian Li, Zhiting Hu, Jason Weston,
+  and Yuandong Tian.
+\newblock Training large language models to reason in a continuous latent
+  space.
+\newblock In \emph{Conference on Language Modeling}, 2025.
+\newblock arXiv:2412.06769.
+
+\bibitem[He et~al.(2024)He, Doshi, Das, and Gromov]{he2024grok}
+Tianyu He, Darshil Doshi, Aritra Das, and Andrey Gromov.
+\newblock Learning to grok: Emergence of in-context learning and skill
+  composition in modular arithmetic tasks.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2024.
+\newblock arXiv:2406.02550.
+
+\bibitem[Hollmann et~al.(2023)Hollmann, M{\"u}ller, Eggensperger, and
+  Hutter]{hollmann2023tabpfn}
+Noah Hollmann, Samuel M{\"u}ller, Katharina Eggensperger, and Frank Hutter.
+\newblock {TabPFN}: A transformer that solves small tabular classification
+  problems in a second.
+\newblock In \emph{International Conference on Learning Representations}, 2023.
+\newblock arXiv:2207.01848.
+
+\bibitem[Jolicoeur-Martineau(2025)]{jolicoeur2025trm}
+Alexia Jolicoeur-Martineau.
+\newblock Less is more: Recursive reasoning with tiny networks.
+\newblock \emph{arXiv preprint arXiv:2510.04871}, 2025.
+
+\bibitem[Kirsch et~al.(2022)Kirsch, Harrison, Sohl-Dickstein, and
+  Metz]{kirsch2022gpicl}
+Louis Kirsch, James Harrison, Jascha Sohl-Dickstein, and Luke Metz.
+\newblock General-purpose in-context learning by meta-learning transformers.
+\newblock \emph{arXiv preprint arXiv:2212.04458}, 2022.
+\newblock NeurIPS 2022 Workshop on Meta-Learning.
+
+\bibitem[Korbak et~al.(2025)Korbak, Balesni, Barnes, Bengio, Benton, Bloom,
+  Chen, Cooney, Dafoe, Dragan, et~al.]{korbak2025monitorability}
+Tomek Korbak, Mikita Balesni, Elizabeth Barnes, Yoshua Bengio, Joe Benton,
+  Joseph Bloom, Mark Chen, Alan Cooney, Allan Dafoe, Anca Dragan, et~al.
+\newblock Chain of thought monitorability: A new and fragile opportunity for
+  {AI} safety.
+\newblock \emph{arXiv preprint arXiv:2507.11473}, 2025.
+
+\bibitem[Lake and Baroni(2018)]{lake2018scan}
+Brenden~M. Lake and Marco Baroni.
+\newblock Generalization without systematicity: On the compositional skills of
+  sequence-to-sequence recurrent networks.
+\newblock In \emph{International Conference on Machine Learning}, 2018.
+\newblock arXiv:1711.00350.
+
+\bibitem[Lake and Baroni(2023)]{lake2023mlc}
+Brenden~M. Lake and Marco Baroni.
+\newblock Human-like systematic generalization through a meta-learning neural
+  network.
+\newblock \emph{Nature}, 623:\penalty0 115--121, 2023.
+
+\bibitem[Lee et~al.(2023)Lee, Sreenivasan, Lee, Lee, and
+  Papailiopoulos]{lee2023arithmetic}
+Nayoung Lee, Kartik Sreenivasan, Jason~D. Lee, Kangwook Lee, and Dimitris
+  Papailiopoulos.
+\newblock Teaching arithmetic to small transformers.
+\newblock \emph{arXiv preprint arXiv:2307.03381}, 2023.
+
+\bibitem[Letey et~al.(2025)Letey, Zavatone-Veth, Lu, and
+  Pehlevan]{letey2025alignment}
+Mary~I. Letey, Jacob~A. Zavatone-Veth, Yue~M. Lu, and Cengiz Pehlevan.
+\newblock Pretrain-test task alignment governs generalization in in-context
+  learning.
+\newblock \emph{arXiv preprint arXiv:2509.26551}, 2025.
+
+\bibitem[Lewis et~al.(2020)Lewis, Perez, Piktus, Petroni, Karpukhin, Goyal,
+  K{\"u}ttler, Lewis, Yih, Rockt{\"a}schel, et~al.]{lewis2020rag}
+Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir
+  Karpukhin, Naman Goyal, Heinrich K{\"u}ttler, Mike Lewis, Wen-tau Yih, Tim
+  Rockt{\"a}schel, et~al.
+\newblock Retrieval-augmented generation for knowledge-intensive {NLP} tasks.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2020.
+\newblock arXiv:2005.11401.
+
+\bibitem[Liu et~al.(2023)Liu, Lin, Hewitt, Paranjape, Bevilacqua, Petroni, and
+  Liang]{liu2023lost}
+Nelson~F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua,
+  Fabio Petroni, and Percy Liang.
+\newblock Lost in the middle: How language models use long contexts.
+\newblock \emph{arXiv preprint arXiv:2307.03172}, 2023.
+
+\bibitem[Min et~al.(2022)Min, Lewis, Zettlemoyer, and
+  Hajishirzi]{min2022metaicl}
+Sewon Min, Mike Lewis, Luke Zettlemoyer, and Hannaneh Hajishirzi.
+\newblock {MetaICL}: Learning to learn in context.
+\newblock In \emph{Conference of the North American Chapter of the Association
+  for Computational Linguistics}, 2022.
+\newblock arXiv:2110.15943.
+
+\bibitem[M{\"u}ller et~al.(2022)M{\"u}ller, Hollmann, Arango, Grabocka, and
+  Hutter]{muller2022pfn}
+Samuel M{\"u}ller, Noah Hollmann, Sebastian~Pineda Arango, Josif Grabocka, and
+  Frank Hutter.
+\newblock Transformers can do {B}ayesian inference.
+\newblock In \emph{International Conference on Learning Representations}, 2022.
+\newblock arXiv:2112.10510.
+
+\bibitem[Nguyen and Reddy(2025)]{nguyen2025kinetics}
+Alex Nguyen and Gautam Reddy.
+\newblock Differential learning kinetics govern the transition from
+  memorization to generalization during in-context learning.
+\newblock In \emph{International Conference on Learning Representations}, 2025.
+\newblock arXiv:2412.00104.
+
+\bibitem[Nye et~al.(2021)Nye, Andreassen, Gur-Ari, Michalewski, Austin, Bieber,
+  Dohan, Lewkowycz, Bosma, Luan, et~al.]{nye2021scratchpad}
+Maxwell Nye, Anders~Johan Andreassen, Guy Gur-Ari, Henryk Michalewski, Jacob
+  Austin, David Bieber, David Dohan, Aitor Lewkowycz, Maarten Bosma, David
+  Luan, et~al.
+\newblock Show your work: Scratchpads for intermediate computation with
+  language models.
+\newblock \emph{arXiv preprint arXiv:2112.00114}, 2021.
+
+\bibitem[Olsson et~al.(2022)Olsson, Elhage, Nanda, Joseph, DasSarma, Henighan,
+  Mann, Askell, Bai, Chen, et~al.]{olsson2022induction}
+Catherine Olsson, Nelson Elhage, Neel Nanda, Nicholas Joseph, Nova DasSarma,
+  Tom Henighan, Ben Mann, Amanda Askell, Yuntao Bai, Anna Chen, et~al.
+\newblock In-context learning and induction heads.
+\newblock \emph{arXiv preprint arXiv:2209.11895}, 2022.
+
+\bibitem[Ravent{\'o}s et~al.(2023)Ravent{\'o}s, Paul, Chen, and
+  Ganguli]{raventos2023diversity}
+Allan Ravent{\'o}s, Mansheej Paul, Feng Chen, and Surya Ganguli.
+\newblock Pretraining task diversity and the emergence of non-{B}ayesian
+  in-context learning for regression.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2023.
+\newblock arXiv:2306.15063.
+
+\bibitem[Reddy(2023)]{reddy2023mechanistic}
+Gautam Reddy.
+\newblock The mechanistic basis of data dependence and abrupt learning in an
+  in-context classification task.
+\newblock \emph{arXiv preprint arXiv:2312.03002}, 2023.
+
+\bibitem[Russin et~al.(2025)Russin, Pavlick, and Frank]{russin2025interplay}
+Jacob Russin, Ellie Pavlick, and Michael~J. Frank.
+\newblock The dynamic interplay between in-context and in-weight learning in
+  humans and neural networks.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 122\penalty0
+  (35), 2025.
+\newblock arXiv:2402.08674.
+
+\bibitem[Saunshi et~al.(2025)Saunshi, Dikkala, Li, Kumar, and
+  Reddi]{saunshi2025latent}
+Nikunj Saunshi, Nishanth Dikkala, Zhiyuan Li, Sanjiv Kumar, and Sashank~J.
+  Reddi.
+\newblock Reasoning with latent thoughts: On the power of looped transformers.
+\newblock In \emph{International Conference on Learning Representations}, 2025.
+\newblock arXiv:2502.17416.
+
+\bibitem[Singh et~al.(2023)Singh, Chan, Moskovitz, Grant, Saxe, and
+  Hill]{singh2023transient}
+Aaditya~K. Singh, Stephanie C.~Y. Chan, Ted Moskovitz, Erin Grant, Andrew~M.
+  Saxe, and Felix Hill.
+\newblock The transient nature of emergent in-context learning in transformers.
+\newblock \emph{arXiv preprint arXiv:2311.08360}, 2023.
+
+\bibitem[von Oswald et~al.(2023)von Oswald, Niklasson, Randazzo, Sacramento,
+  Mordvintsev, Zhmoginov, and Vladymyrov]{vonoswald2023gd}
+Johannes von Oswald, Eyvind Niklasson, Ettore Randazzo, Jo{\~a}o Sacramento,
+  Alexander Mordvintsev, Andrey Zhmoginov, and Max Vladymyrov.
+\newblock Transformers learn in-context by gradient descent.
+\newblock In \emph{International Conference on Machine Learning}, 2023.
+\newblock arXiv:2212.07677.
+
+\bibitem[Wang et~al.(2025)Wang, Li, Sun, Chen, Liu, Wu, Lu, Song, and
+  Yadkori]{wang2025hrm}
+Guan Wang, Jin Li, Yuhao Sun, Xing Chen, Changling Liu, Yue Wu, Meng Lu, Sen
+  Song, and Yasin~Abbasi Yadkori.
+\newblock Hierarchical reasoning model.
+\newblock \emph{arXiv preprint arXiv:2506.21734}, 2025.
+
+\bibitem[Wei et~al.(2022)Wei, Wang, Schuurmans, Bosma, Ichter, Xia, Chi, Le,
+  and Zhou]{wei2022cot}
+Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia,
+  Ed~Chi, Quoc Le, and Denny Zhou.
+\newblock Chain-of-thought prompting elicits reasoning in large language
+  models.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2022.
+\newblock arXiv:2201.11903.
+
+\bibitem[Xie et~al.(2022)Xie, Raghunathan, Liang, and Ma]{xie2022bayesian}
+Sang~Michael Xie, Aditi Raghunathan, Percy Liang, and Tengyu Ma.
+\newblock An explanation of in-context learning as implicit {B}ayesian
+  inference.
+\newblock In \emph{International Conference on Learning Representations}, 2022.
+\newblock arXiv:2111.02080.
+
+\bibitem[Yang et~al.(2024)Yang, Lee, Nowak, and Papailiopoulos]{yang2024looped}
+Liu Yang, Kangwook Lee, Robert Nowak, and Dimitris Papailiopoulos.
+\newblock Looped transformers are better at learning learning algorithms.
+\newblock In \emph{International Conference on Learning Representations}, 2024.
+\newblock arXiv:2311.12424.
+
+\bibitem[Zhu et~al.(2025{\natexlab{a}})Zhu, Wang, Hua, Zhang, Li, Que, Wei,
+  Wen, Yin, Xing, et~al.]{zhu2025ouro}
+Rui-Jie Zhu, Zixuan Wang, Kai Hua, Tianyu Zhang, Ziniu Li, Haoran Que, Boyi
+  Wei, Zixin Wen, Fan Yin, He~Xing, et~al.
+\newblock Scaling latent reasoning via looped language models.
+\newblock \emph{arXiv preprint arXiv:2510.25741}, 2025{\natexlab{a}}.
+
+\bibitem[Zhu et~al.(2025{\natexlab{b}})Zhu, Panigrahi, and
+  Arora]{zhu2025context}
+Xingyu Zhu, Abhishek Panigrahi, and Sanjeev Arora.
+\newblock On the power of context-enhanced learning in {LLM}s.
+\newblock In \emph{International Conference on Machine Learning},
+  2025{\natexlab{b}}.
+\newblock arXiv:2503.01821.
+
+\end{thebibliography}

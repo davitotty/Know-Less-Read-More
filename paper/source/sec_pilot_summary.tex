@@ -1,0 +1,21 @@
+Table~\ref{tab:summary} sets the pilot against the five hypotheses of Section~\ref{sec:protocol}.
+H1 to H4 were written down before any experiment was run.
+H1 is given in the form to which the pilot led us to narrow it: originally it predicted that removing rule following would lower accuracy on \emph{every} exercise type, whereas \skill{induce}, which in TinyTextbook needs no table look-up, was still solved by \ETwoNoFollowInduceSolved{} of the \ETwoNoFollowSeeds{} seeds trained without \skill{follow}. The prediction is now restricted to skills that build on the one removed.
+H5 was added during the pilot, after exploratory runs had already suggested its outcome, so it should be read as a question put to the full-scale study and not as a prediction that was tested fairly here.
+
+\begin{table}[t]
+\centering\small
+\begin{tabular}{@{}lp{7.6cm}l@{}}
+\toprule
+ & \textbf{Evidence in the pilot} & \textbf{Status at this scale} \\
+\midrule
+H1 & Each skill left out of training stayed at chance in every seed; without \skill{follow}, \skill{compose} was solved in \ETwoPoolComposeWithoutFollowSolved{} of \ETwoPoolComposeWithoutFollowRuns{} runs, against \ETwoPoolComposeWithFollowSolved{} of \ETwoPoolComposeWithFollowRuns{} with it (E2). & Supported, after narrowing \\
+H2 & Models that memorised their textbooks were at chance on new ones (E1). No direct test. & Not tested \\
+H3 & At a fixed number of episodes, the number of distinct textbooks decided between memorising and reading (E1). Rule families were not varied. & Supported in part \\
+H4 & With the same parameters, a second loop extended the chain length that was solved; a third made no visible difference. At equal depth, looped and unshared models showed no consistent difference (E3). & Supported in part \\
+H5 & Separately trained skills did not combine: \skill{mixed} was solved in \ETwoPoolMixedAllSolved{} of \ETwoPoolMixedAllRuns{} runs, and chains longer than those trained stayed at the guessing level (E2, E3). & Contradicted \\
+\bottomrule
+\end{tabular}
+\caption{The pilot against the hypotheses. ``At this scale'' means models of one to three hundred thousand parameters, one synthetic domain, one to four seeds.}
+\label{tab:summary}
+\end{table}

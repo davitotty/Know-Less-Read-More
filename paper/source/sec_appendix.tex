@@ -1,0 +1,87 @@
+% ===========================================================================
+\section{Implementation Details}
+\label{app:details}
+% ===========================================================================
+
+\paragraph{Tokens.}
+The vocabulary has 17 tokens: padding, start of sequence, \tok{Q}, \tok{=}, five symbols and eight function names.
+The aligned layout uses four of the names (\tok{F1}, \tok{F2}, \tok{F3} for the tabulated functions and one for the induced function).
+The material occupies 19 tokens after the start token: three rows of five values, then two key--value pairs for the induced function.
+An exercise with a chain of length $d$ occupies $d+4$ tokens including its answer.
+
+\paragraph{Model.}
+A decoder-only transformer with pre-layer normalisation, width 64, four attention heads, an MLP expansion factor of four with GELU activations, learned absolute position embeddings added to the token embeddings, rotary position encoding inside the attention, and an output layer that is not tied to the input embedding.
+A model described as ``$n$ layers $\times$ $r$ loops'' applies the same stack of $n$ layers $r$ times in sequence, with no input re-injection and no loop-index embedding, followed by one final layer normalisation.
+The default model of experiments E1 and E2 is 2 layers $\times$ 2 loops (\NparamsMain{} parameters).
+
+\paragraph{Training.}
+AdamW with learning rate $2\times10^{-3}$, $\beta = (0.9, 0.98)$, weight decay $0.01$, linear warm-up over 200 steps followed by cosine decay to zero, gradient clipping at norm 1.0, and batches of 32 episodes with eight exercises each.
+E1, E2 and E4 train for 5{,}000 steps (160{,}000 episodes); E3 trains for 8{,}000 steps (256{,}000 episodes).
+The loss is the cross-entropy on answer tokens only.
+In training, each of the three tabulated functions is an independent uniformly random map on the five symbols (except in one arm of E4, where it is a uniformly random permutation); the induced function is a cyclic shift by a uniformly random non-zero amount, shown through two examples with distinct random keys.
+
+\paragraph{Evaluation.}
+Each test consists of 4{,}000 episodes with a single exercise each, generated from a random stream that is independent of the training stream.
+In tests on new textbooks the tabulated functions are uniformly random permutations.
+In the G0 tests of E1 the textbooks are drawn from the finite training pool and are therefore arbitrary maps.
+Curves during training use 500 episodes per test every 500 steps.
+
+\paragraph{Guessing levels.}
+On permutation textbooks the answer to a single look-up is uniform, so the guessing level of \skill{follow} is 20\%.
+In a chain, the same function can occur more than once, and the answer then equals the input $x$ more often than $1/K$; for example $f(f(x)) = x$ whenever $x$ lies on a cycle of length one or two, which has probability $2/K$.
+The best guesser that sees the exercise but not the tables answers $x$ for the chains where this is the likeliest value and anything else otherwise.
+Enumerating all $120^3$ triples of permutations and all chains gives its accuracy exactly: \GuessTwo, \GuessThree, \GuessFour, \GuessFive{} and \GuessSix\% for chain lengths 2 to 6 (script \texttt{guess\_levels.py}).
+For \skill{induce} the answer is never the input, so the guessing level is 25\%.
+For \skill{mixed} at depth 2 the two functions are always different, and the level of 26.7\% derived in Section~\ref{sec:pilot} applies to a guesser that has induced $g$.
+
+\paragraph{Compute.}
+All \TotalRuns{} reported runs were executed on two virtual CPU cores without a GPU, using PyTorch 2.14 with one thread per run, and took \TotalCpuHours{} CPU-hours in total.
+
+\paragraph{Release.}
+The file \texttt{tinytextbook.py} contains the generator, the model, the training loop and the definitions of the four experiments; \texttt{make\_results.py} regenerates every table, figure and number in this paper from the JSON logs.
+\texttt{guess\_levels.py} computes the guessing levels.
+All three are available, together with the logs of every run, at \url{https://github.com/davitotty/Know-Less-Read-More}.
+
+% ===========================================================================
+\section{Per-Run Results}
+\label{app:runs}
+% ===========================================================================
+
+Tables~\ref{tab:runs-e1}--\ref{tab:runs-e4} list the final accuracy (\%) of every run that enters the paper.
+``Min.'' is the wall-clock training time in minutes.
+
+\begin{table}[!htbp]
+\centering\footnotesize
+\input{gen/tab_runs_e1.tex}
+\caption{E1, all runs.}
+\label{tab:runs-e1}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\footnotesize
+\input{gen/tab_runs_e2.tex}
+\caption{E2, all runs.}
+\label{tab:runs-e2}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\footnotesize
+\input{gen/tab_runs_e3.tex}
+\caption{E3, all runs.}
+\label{tab:runs-e3}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\footnotesize
+\input{gen/tab_runs_e4.tex}
+\caption{E4, all runs. ``perm.'' and ``maps'' are \skill{follow} accuracy on new textbooks that tabulate permutations and arbitrary maps.}
+\label{tab:runs-e4}
+\end{table}
+
+\clearpage
+% ===========================================================================
+\section{Exploratory Runs}
+\label{app:negative}
+% ===========================================================================
+
+\input{sec_appendix_negative.tex}

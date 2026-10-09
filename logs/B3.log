@@ -1,0 +1,37 @@
+[e4] train_maps seed=1
+  step     0 |      0s | follow_perm=0.214 follow_map=0.208
+  step   500 |     35s | follow_perm=0.200 follow_map=0.452
+  step  1000 |     70s | follow_perm=0.196 follow_map=0.444
+  step  1500 |    103s | follow_perm=0.596 follow_map=0.604
+  step  2000 |    139s | follow_perm=0.998 follow_map=0.952
+  step  2500 |    176s | follow_perm=1.000 follow_map=0.990
+  step  3000 |    211s | follow_perm=1.000 follow_map=0.998
+  step  3500 |    246s | follow_perm=1.000 follow_map=1.000
+  step  4000 |    281s | follow_perm=1.000 follow_map=1.000
+  step  4500 |    315s | follow_perm=1.000 follow_map=1.000
+  step  5000 |    350s | follow_perm=1.000 follow_map=1.000
+[e4] train_perms seed=1
+  step     0 |      0s | follow_perm=0.214 follow_map=0.208
+  step   500 |     33s | follow_perm=0.200 follow_map=0.210
+  step  1000 |     67s | follow_perm=0.184 follow_map=0.206
+  step  1500 |    101s | follow_perm=0.220 follow_map=0.216
+  step  2000 |    138s | follow_perm=0.270 follow_map=0.198
+  step  2500 |    171s | follow_perm=0.276 follow_map=0.250
+  step  3000 |    204s | follow_perm=0.340 follow_map=0.296
+  step  3500 |    238s | follow_perm=0.428 follow_map=0.330
+  step  4000 |    272s | follow_perm=0.450 follow_map=0.356
+  step  4500 |    305s | follow_perm=0.540 follow_map=0.422
+  step  5000 |    341s | follow_perm=0.525 follow_map=0.421
+[e4] train_maps seed=2
+  step     0 |      0s | follow_perm=0.000 follow_map=0.000
+  step   500 |     34s | follow_perm=0.224 follow_map=0.322
+  step  1000 |     67s | follow_perm=0.204 follow_map=0.442
+  step  1500 |    102s | follow_perm=0.198 follow_map=0.498
+  step  2000 |    136s | follow_perm=0.196 follow_map=0.442
+  step  2500 |    170s | follow_perm=0.950 follow_map=0.964
+  step  3000 |    204s | follow_perm=1.000 follow_map=1.000
+  step  3500 |    238s | follow_perm=1.000 follow_map=1.000
+  step  4000 |    273s | follow_perm=1.000 follow_map=1.000
+  step  4500 |    306s | follow_perm=1.000 follow_map=1.000
+  step  5000 |    341s | follow_perm=1.000 follow_map=1.000
+QUEUE_B3_DONE

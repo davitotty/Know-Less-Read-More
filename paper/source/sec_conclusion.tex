@@ -1,0 +1,11 @@
+We asked how little a small model needs to know if the rest can be read, and proposed to answer it empirically: state a candidate base curriculum, build a benchmark in which memorising the rules is useless, remove one skill at a time, and measure what breaks at each level of generalisation.
+
+The pilot shows that the programme can be run on a laptop-class CPU and that most of its answers are clear even through considerable seed-to-seed noise.
+At about a hundred thousand parameters, a transformer trained on enough distinct textbooks used textbooks it had never seen, and one trained on too few memorised them, with no visible difference on the training material.
+Each skill had to be trained to be present, the simplest skill had to be present for the next one to be learned, and two trained skills did not combine without being trained together.
+Applying the same layers twice bought computation depth without parameters.
+
+The pilot also shows how far the programme is from its goal.
+The models read a page whose layout is fixed; retrieval by content, on which reading any real text depends, was not learned within our budget, parsing was built into the layout, and verification was not tested at all.
+Whether a small base curriculum exists for models of practical size therefore remains open.
+The protocol of Section~\ref{sec:protocol} says what to measure to find out, and the code released with this paper is enough to start.

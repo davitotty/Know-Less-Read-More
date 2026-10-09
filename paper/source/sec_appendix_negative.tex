@@ -1,0 +1,28 @@
+The observations cited in Sections~\ref{sec:symmetry} and~\ref{sec:negative} come from runs made while the benchmark was being designed.
+Their logs were not retained, with the exception of items~6 to~8; experiment E4 repeats the comparison of items~3 and~4 under controlled conditions.
+They used a single seed each, were stopped early once the outcome seemed clear, and differ from one another in more than one factor, so they are reported as observations and not as controlled comparisons.
+Unless noted, the models had four unshared layers of width 64 and all other settings were as in Appendix~\ref{app:details}.
+Accuracies are on new permutation textbooks, where the guessing level of \skill{follow} is 20\%.
+
+\begin{enumerate}
+\item \textbf{Shuffled layout, permutations in training.}
+With free-standing \tok{name key value} triples in random order, \skill{follow} stayed at chance for as long as we trained: 2{,}000 steps with exercises in postfix or prefix order and learned absolute positions; 1{,}500 steps with rotary encoding only; 3{,}000 steps when training on \skill{follow} alone with eight exercises per episode (one run at learning rate $10^{-3}$ with smaller textbooks mixed in, one at $3\times10^{-3}$ without).
+\item \textbf{One tabulated function.}
+Reducing the textbook to a single tabulated function plus the two examples of the induced one, with a two-layer model, left the training loss at $\ln 5$ for as long as we trained (3{,}000 to 3{,}800 steps), with and without an added next-token loss on all positions.
+A model of the same size fitted one fixed batch of 32 full-size episodes to a loss below $0.01$ in 200 steps, so the failure is one of finding the general solution and not of capacity or of a faulty pipeline.
+\item \textbf{Aligned layout, permutations in training.}
+\skill{follow} was at chance at every checkpoint up to step 3{,}500 of a 4{,}000-step schedule at learning rate $10^{-3}$, while \skill{induce}, whose two examples sit at fixed positions, reached 100\% by step 1{,}500.
+\item \textbf{Aligned layout, arbitrary maps in training.}
+With no other change, \skill{follow} went from 32\% at step 2{,}000 to 99.8\% at step 2{,}500; at learning rate $2\times10^{-3}$ it reached 98\% by step 1{,}500.
+\item \textbf{Shuffled layout, arbitrary maps in training.}
+\skill{follow} was still at chance when the run was stopped at step 2{,}500.
+\item \textbf{Four unshared layers on the E2 training mix.}
+With \skill{follow}, \skill{induce} and \skill{compose} at depths 2 and 3 in the training mix and learning rate $2\times10^{-3}$, \skill{follow} and \skill{induce} reached 100\%, but \skill{compose} at depth 2 had only reached 29\%, barely above its guessing level, when the run was stopped at step 7{,}000 of 10{,}000.
+This observation motivated both the looped default model and experiment E3; E3 then showed that the difference between looped and unshared models is not consistent across seeds, so the observation should not be read as evidence about architecture.
+\item \textbf{Full curriculum with a 6{,}000-step schedule.}
+Before the budget was fixed, the full curriculum was run once with the final default model and a schedule of 6{,}000 steps (seed 0).
+It ended with \skill{follow} and \skill{induce} at 100\%, \skill{compose} at depth 2 at 82.7\% and \skill{mixed} at 21.7\%.
+The run is not part of Table~\ref{tab:e2} because its budget differs from that of the reported runs; it is one more instance of a full-curriculum run that did not solve \skill{compose}.
+\item \textbf{Three loops with a 10{,}000-step schedule.}
+The three-loop model of E3, trained with a 10{,}000-step schedule (seed 0), was at 95.2\% at chain length 3 by step 6{,}500 and still at the guessing level at length 4 when it was stopped at step 7{,}500.
+\end{enumerate}

@@ -1,0 +1,19 @@
+The switch from memorising to reading as the number of distinct textbooks grows is the instructional-material counterpart of the task-diversity threshold reported for in-context regression \citep{raventos2023diversity} and for modular arithmetic \citep{he2024grok}.
+Four points are worth drawing out.
+
+\emph{Accuracy on seen material is uninformative.}
+The G0 columns are the same, to within half a point, for models that read and models that do not.
+Any evaluation in which the rules were available during training, in whatever form, cannot distinguish the two.
+
+\emph{Variety made the difference, not volume.}
+Every model saw the same 160{,}000 training episodes.
+What changed is how many different textbooks those episodes were about.
+This is the first half of hypothesis H3 in Section~\ref{sec:protocol}.
+
+\emph{The harder skill asks for more variety.}
+At $M=64$, \skill{follow} transfers to new textbooks largely or completely (\EOneMSixFourNewFollowList\%) while \skill{compose} lags behind (\EOneMSixFourNewComposeTwoList\%).
+With one or two seeds per condition we do not read more into the location of the threshold than that reading begins somewhere between 16 and 64 textbooks for the easier skill and is not complete at 64 for the harder one.
+
+\emph{Knowledge in the weights did not help with a new page.}
+The models with $M \le 16$ know their textbooks perfectly and are at or near chance on a new one.
+This bears on hypothesis H2 only indirectly: the direct test, adding facts to the weights of a model that already reads, is left to the full-scale study.

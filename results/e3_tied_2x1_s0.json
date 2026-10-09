@@ -1,0 +1,183 @@
+{
+ "cfg": {
+  "d": 64,
+  "heads": 4,
+  "layers": 2,
+  "loops": 1,
+  "lr": 0.002,
+  "bs": 32,
+  "nq": 8,
+  "var_def": true,
+  "steps": 8000,
+  "eval_every": 500,
+  "seed": 0
+ },
+ "n_params": 113297,
+ "final": {
+  "step": 8000,
+  "depth1": 1.0,
+  "depth2": 0.2485,
+  "depth3": 0.24425,
+  "depth4": 0.2285,
+  "depth5": 0.21425,
+  "depth6": 0.2205
+ },
+ "curve": [
+  {
+   "step": 0,
+   "depth1": 0.198,
+   "depth2": 0.19,
+   "depth3": 0.0,
+   "depth4": 0.0,
+   "depth5": 0.188,
+   "depth6": 0.0
+  },
+  {
+   "step": 500,
+   "depth1": 0.196,
+   "depth2": 0.21,
+   "depth3": 0.19,
+   "depth4": 0.214,
+   "depth5": 0.21,
+   "depth6": 0.156
+  },
+  {
+   "step": 1000,
+   "depth1": 0.464,
+   "depth2": 0.22,
+   "depth3": 0.234,
+   "depth4": 0.218,
+   "depth5": 0.214,
+   "depth6": 0.18
+  },
+  {
+   "step": 1500,
+   "depth1": 0.998,
+   "depth2": 0.226,
+   "depth3": 0.242,
+   "depth4": 0.214,
+   "depth5": 0.212,
+   "depth6": 0.216
+  },
+  {
+   "step": 2000,
+   "depth1": 1.0,
+   "depth2": 0.208,
+   "depth3": 0.196,
+   "depth4": 0.166,
+   "depth5": 0.202,
+   "depth6": 0.198
+  },
+  {
+   "step": 2500,
+   "depth1": 0.996,
+   "depth2": 0.216,
+   "depth3": 0.214,
+   "depth4": 0.224,
+   "depth5": 0.168,
+   "depth6": 0.166
+  },
+  {
+   "step": 3000,
+   "depth1": 1.0,
+   "depth2": 0.234,
+   "depth3": 0.234,
+   "depth4": 0.204,
+   "depth5": 0.204,
+   "depth6": 0.176
+  },
+  {
+   "step": 3500,
+   "depth1": 1.0,
+   "depth2": 0.234,
+   "depth3": 0.23,
+   "depth4": 0.208,
+   "depth5": 0.222,
+   "depth6": 0.242
+  },
+  {
+   "step": 4000,
+   "depth1": 1.0,
+   "depth2": 0.202,
+   "depth3": 0.22,
+   "depth4": 0.208,
+   "depth5": 0.178,
+   "depth6": 0.184
+  },
+  {
+   "step": 4500,
+   "depth1": 1.0,
+   "depth2": 0.19,
+   "depth3": 0.244,
+   "depth4": 0.234,
+   "depth5": 0.196,
+   "depth6": 0.19
+  },
+  {
+   "step": 5000,
+   "depth1": 1.0,
+   "depth2": 0.258,
+   "depth3": 0.258,
+   "depth4": 0.188,
+   "depth5": 0.224,
+   "depth6": 0.214
+  },
+  {
+   "step": 5500,
+   "depth1": 1.0,
+   "depth2": 0.228,
+   "depth3": 0.23,
+   "depth4": 0.228,
+   "depth5": 0.202,
+   "depth6": 0.21
+  },
+  {
+   "step": 6000,
+   "depth1": 1.0,
+   "depth2": 0.208,
+   "depth3": 0.218,
+   "depth4": 0.216,
+   "depth5": 0.222,
+   "depth6": 0.224
+  },
+  {
+   "step": 6500,
+   "depth1": 1.0,
+   "depth2": 0.262,
+   "depth3": 0.216,
+   "depth4": 0.21,
+   "depth5": 0.23,
+   "depth6": 0.204
+  },
+  {
+   "step": 7000,
+   "depth1": 1.0,
+   "depth2": 0.28,
+   "depth3": 0.262,
+   "depth4": 0.246,
+   "depth5": 0.232,
+   "depth6": 0.222
+  },
+  {
+   "step": 7500,
+   "depth1": 1.0,
+   "depth2": 0.232,
+   "depth3": 0.224,
+   "depth4": 0.19,
+   "depth5": 0.176,
+   "depth6": 0.212
+  },
+  {
+   "step": 8000,
+   "depth1": 1.0,
+   "depth2": 0.2485,
+   "depth3": 0.24425,
+   "depth4": 0.2285,
+   "depth5": 0.21425,
+   "depth6": 0.2205
+  }
+ ],
+ "seconds": 426.9818549156189,
+ "exp": "e3",
+ "name": "tied_2x1"
+}

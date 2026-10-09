@@ -1,0 +1,183 @@
+{
+ "cfg": {
+  "d": 64,
+  "heads": 4,
+  "layers": 4,
+  "loops": 1,
+  "lr": 0.002,
+  "bs": 32,
+  "nq": 8,
+  "var_def": true,
+  "steps": 8000,
+  "eval_every": 500,
+  "seed": 0
+ },
+ "n_params": 213265,
+ "final": {
+  "step": 8000,
+  "depth1": 1.0,
+  "depth2": 0.76375,
+  "depth3": 0.30125,
+  "depth4": 0.2265,
+  "depth5": 0.2065,
+  "depth6": 0.21225
+ },
+ "curve": [
+  {
+   "step": 0,
+   "depth1": 0.196,
+   "depth2": 0.0,
+   "depth3": 0.0,
+   "depth4": 0.0,
+   "depth5": 0.0,
+   "depth6": 0.0
+  },
+  {
+   "step": 500,
+   "depth1": 0.2,
+   "depth2": 0.204,
+   "depth3": 0.218,
+   "depth4": 0.206,
+   "depth5": 0.202,
+   "depth6": 0.188
+  },
+  {
+   "step": 1000,
+   "depth1": 0.512,
+   "depth2": 0.164,
+   "depth3": 0.228,
+   "depth4": 0.2,
+   "depth5": 0.23,
+   "depth6": 0.214
+  },
+  {
+   "step": 1500,
+   "depth1": 1.0,
+   "depth2": 0.51,
+   "depth3": 0.222,
+   "depth4": 0.204,
+   "depth5": 0.228,
+   "depth6": 0.218
+  },
+  {
+   "step": 2000,
+   "depth1": 1.0,
+   "depth2": 0.678,
+   "depth3": 0.2,
+   "depth4": 0.19,
+   "depth5": 0.212,
+   "depth6": 0.21
+  },
+  {
+   "step": 2500,
+   "depth1": 1.0,
+   "depth2": 0.728,
+   "depth3": 0.218,
+   "depth4": 0.198,
+   "depth5": 0.204,
+   "depth6": 0.206
+  },
+  {
+   "step": 3000,
+   "depth1": 1.0,
+   "depth2": 0.734,
+   "depth3": 0.236,
+   "depth4": 0.204,
+   "depth5": 0.214,
+   "depth6": 0.204
+  },
+  {
+   "step": 3500,
+   "depth1": 1.0,
+   "depth2": 0.742,
+   "depth3": 0.216,
+   "depth4": 0.24,
+   "depth5": 0.184,
+   "depth6": 0.218
+  },
+  {
+   "step": 4000,
+   "depth1": 1.0,
+   "depth2": 0.75,
+   "depth3": 0.254,
+   "depth4": 0.228,
+   "depth5": 0.212,
+   "depth6": 0.188
+  },
+  {
+   "step": 4500,
+   "depth1": 1.0,
+   "depth2": 0.732,
+   "depth3": 0.222,
+   "depth4": 0.236,
+   "depth5": 0.202,
+   "depth6": 0.216
+  },
+  {
+   "step": 5000,
+   "depth1": 1.0,
+   "depth2": 0.732,
+   "depth3": 0.24,
+   "depth4": 0.184,
+   "depth5": 0.178,
+   "depth6": 0.204
+  },
+  {
+   "step": 5500,
+   "depth1": 1.0,
+   "depth2": 0.724,
+   "depth3": 0.222,
+   "depth4": 0.232,
+   "depth5": 0.218,
+   "depth6": 0.168
+  },
+  {
+   "step": 6000,
+   "depth1": 1.0,
+   "depth2": 0.73,
+   "depth3": 0.2,
+   "depth4": 0.238,
+   "depth5": 0.18,
+   "depth6": 0.196
+  },
+  {
+   "step": 6500,
+   "depth1": 1.0,
+   "depth2": 0.782,
+   "depth3": 0.264,
+   "depth4": 0.234,
+   "depth5": 0.216,
+   "depth6": 0.21
+  },
+  {
+   "step": 7000,
+   "depth1": 1.0,
+   "depth2": 0.74,
+   "depth3": 0.284,
+   "depth4": 0.192,
+   "depth5": 0.218,
+   "depth6": 0.21
+  },
+  {
+   "step": 7500,
+   "depth1": 1.0,
+   "depth2": 0.762,
+   "depth3": 0.306,
+   "depth4": 0.226,
+   "depth5": 0.22,
+   "depth6": 0.214
+  },
+  {
+   "step": 8000,
+   "depth1": 1.0,
+   "depth2": 0.76375,
+   "depth3": 0.30125,
+   "depth4": 0.2265,
+   "depth5": 0.2065,
+   "depth6": 0.21225
+  }
+ ],
+ "seconds": 820.4109139442444,
+ "exp": "e3",
+ "name": "untied_4"
+}

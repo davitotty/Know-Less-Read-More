@@ -1,0 +1,61 @@
+[e3] tied_2x2 seed=2
+  step     0 |      1s | depth1=0.000 depth2=0.000 depth3=0.200 depth4=0.190 depth5=0.000 depth6=0.000
+  step   500 |     52s | depth1=0.216 depth2=0.220 depth3=0.184 depth4=0.188 depth5=0.204 depth6=0.184
+  step  1000 |    102s | depth1=0.250 depth2=0.216 depth3=0.210 depth4=0.212 depth5=0.214 depth6=0.216
+  step  1500 |    152s | depth1=0.520 depth2=0.222 depth3=0.230 depth4=0.178 depth5=0.192 depth6=0.216
+  step  2000 |    202s | depth1=1.000 depth2=0.454 depth3=0.214 depth4=0.202 depth5=0.226 depth6=0.192
+  step  2500 |    250s | depth1=1.000 depth2=0.998 depth3=0.194 depth4=0.246 depth5=0.248 depth6=0.208
+  step  3000 |    299s | depth1=1.000 depth2=1.000 depth3=0.232 depth4=0.170 depth5=0.214 depth6=0.210
+  step  3500 |    347s | depth1=1.000 depth2=1.000 depth3=0.224 depth4=0.192 depth5=0.246 depth6=0.210
+  step  4000 |    396s | depth1=1.000 depth2=1.000 depth3=0.282 depth4=0.204 depth5=0.208 depth6=0.228
+  step  4500 |    444s | depth1=1.000 depth2=1.000 depth3=0.268 depth4=0.208 depth5=0.232 depth6=0.194
+  step  5000 |    491s | depth1=1.000 depth2=1.000 depth3=0.302 depth4=0.238 depth5=0.250 depth6=0.200
+  step  5500 |    539s | depth1=1.000 depth2=1.000 depth3=0.230 depth4=0.222 depth5=0.220 depth6=0.224
+  step  6000 |    588s | depth1=1.000 depth2=1.000 depth3=0.266 depth4=0.208 depth5=0.212 depth6=0.192
+  step  6500 |    636s | depth1=1.000 depth2=1.000 depth3=0.264 depth4=0.238 depth5=0.244 depth6=0.220
+  step  7000 |    686s | depth1=1.000 depth2=1.000 depth3=0.306 depth4=0.226 depth5=0.224 depth6=0.202
+  step  7500 |    735s | depth1=1.000 depth2=1.000 depth3=0.304 depth4=0.210 depth5=0.212 depth6=0.254
+  step  8000 |    794s | depth1=1.000 depth2=1.000 depth3=0.300 depth4=0.251 depth5=0.237 depth6=0.216
+[e3] untied_4 seed=2
+  step     0 |      1s | depth1=0.000 depth2=0.000 depth3=0.208 depth4=0.192 depth5=0.216 depth6=0.000
+  step   500 |     50s | depth1=0.198 depth2=0.204 depth3=0.206 depth4=0.206 depth5=0.204 depth6=0.194
+  step  1000 |    100s | depth1=0.266 depth2=0.214 depth3=0.184 depth4=0.210 depth5=0.208 depth6=0.206
+  step  1500 |    149s | depth1=1.000 depth2=0.390 depth3=0.192 depth4=0.220 depth5=0.234 depth6=0.220
+  step  2000 |    198s | depth1=1.000 depth2=0.772 depth3=0.208 depth4=0.212 depth5=0.218 depth6=0.210
+  step  2500 |    246s | depth1=1.000 depth2=0.746 depth3=0.222 depth4=0.222 depth5=0.190 depth6=0.210
+  step  3000 |    295s | depth1=1.000 depth2=0.830 depth3=0.236 depth4=0.220 depth5=0.216 depth6=0.230
+  step  3500 |    345s | depth1=1.000 depth2=0.886 depth3=0.262 depth4=0.244 depth5=0.182 depth6=0.222
+  step  4000 |    395s | depth1=1.000 depth2=0.918 depth3=0.274 depth4=0.230 depth5=0.190 depth6=0.236
+  step  4500 |    446s | depth1=1.000 depth2=0.936 depth3=0.272 depth4=0.268 depth5=0.238 depth6=0.216
+  step  5000 |    495s | depth1=1.000 depth2=0.938 depth3=0.316 depth4=0.220 depth5=0.204 depth6=0.210
+  step  5500 |    545s | depth1=1.000 depth2=0.940 depth3=0.284 depth4=0.236 depth5=0.202 depth6=0.218
+  step  6000 |    596s | depth1=1.000 depth2=0.906 depth3=0.326 depth4=0.192 depth5=0.216 depth6=0.190
+  step  6500 |    646s | depth1=1.000 depth2=0.932 depth3=0.346 depth4=0.250 depth5=0.178 depth6=0.214
+  step  7000 |    697s | depth1=1.000 depth2=0.936 depth3=0.326 depth4=0.234 depth5=0.182 depth6=0.212
+  step  7500 |    747s | depth1=1.000 depth2=0.924 depth3=0.338 depth4=0.248 depth5=0.224 depth6=0.220
+  step  8000 |    804s | depth1=1.000 depth2=0.915 depth3=0.349 depth4=0.231 depth5=0.224 depth6=0.212
+[e1] M=64 seed=1
+  step     0 |      1s | seen_follow=0.174 seen_compose2=0.000 new_follow=0.214 new_compose2=0.000
+  step   500 |     41s | seen_follow=0.454 seen_compose2=0.454 new_follow=0.180 new_compose2=0.182
+  step  1000 |     80s | seen_follow=0.596 seen_compose2=0.492 new_follow=0.424 new_compose2=0.200
+  step  1500 |    122s | seen_follow=0.984 seen_compose2=0.484 new_follow=0.792 new_compose2=0.210
+  step  2000 |    162s | seen_follow=0.994 seen_compose2=0.582 new_follow=0.838 new_compose2=0.280
+  step  2500 |    203s | seen_follow=1.000 seen_compose2=0.714 new_follow=0.806 new_compose2=0.284
+  step  3000 |    244s | seen_follow=0.998 seen_compose2=0.868 new_follow=0.782 new_compose2=0.310
+  step  3500 |    284s | seen_follow=1.000 seen_compose2=0.946 new_follow=0.822 new_compose2=0.290
+  step  4000 |    323s | seen_follow=1.000 seen_compose2=0.984 new_follow=0.818 new_compose2=0.278
+  step  4500 |    364s | seen_follow=1.000 seen_compose2=0.994 new_follow=0.818 new_compose2=0.290
+  step  5000 |    409s | seen_follow=1.000 seen_compose2=0.996 new_follow=0.810 new_compose2=0.284
+[e1] M=inf seed=1
+  step     0 |      1s | seen_follow=0.214 seen_compose2=0.000 new_follow=0.236 new_compose2=0.000
+  step   500 |     40s | seen_follow=0.224 seen_compose2=0.228 new_follow=0.192 new_compose2=0.194
+  step  1000 |     79s | seen_follow=0.276 seen_compose2=0.152 new_follow=0.300 new_compose2=0.180
+  step  1500 |    117s | seen_follow=1.000 seen_compose2=0.992 new_follow=1.000 new_compose2=0.960
+  step  2000 |    157s | seen_follow=1.000 seen_compose2=1.000 new_follow=1.000 new_compose2=1.000
+  step  2500 |    195s | seen_follow=1.000 seen_compose2=1.000 new_follow=1.000 new_compose2=1.000
+  step  3000 |    234s | seen_follow=1.000 seen_compose2=1.000 new_follow=1.000 new_compose2=1.000
+  step  3500 |    274s | seen_follow=1.000 seen_compose2=1.000 new_follow=1.000 new_compose2=1.000
+  step  4000 |    313s | seen_follow=1.000 seen_compose2=1.000 new_follow=1.000 new_compose2=1.000
+  step  4500 |    352s | seen_follow=1.000 seen_compose2=1.000 new_follow=1.000 new_compose2=1.000
+  step  5000 |    396s | seen_follow=1.000 seen_compose2=1.000 new_follow=1.000 new_compose2=1.000
+QUEUE_B2_DONE

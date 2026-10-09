@@ -1,0 +1,26 @@
+Every training episode draws its textbook from a fixed pool of $M$ textbooks, or from an unlimited supply ($M=\infty$).
+The exercises are sampled afresh each time, half of them \skill{follow} and half \skill{compose} at depth 2, and the number of training episodes is the same for every $M$.
+We then test on textbooks from the pool (G0) and on new textbooks (G1).
+
+\begin{table}[t]
+\centering\small
+\input{gen/tab_e1.tex}
+\caption{E1: accuracy (\%) after training on $M$ distinct textbooks. One seed for $M \le 16$; for $M = 64$ and $M = \infty$ the mean of two seeds, followed by the number of seeds that ended at 95\% or above. On new textbooks the guessing level is 20\% for \skill{follow} and \GuessTwo\% for \skill{compose}-2. Seen textbooks tabulate arbitrary maps, as in training; new textbooks tabulate permutations.}
+\label{tab:e1}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{gen/fig_e1_e2.pdf}
+\caption{\textbf{(a)} E1 (means over seeds). All models answer almost perfectly on their training textbooks; only those trained on enough distinct textbooks can use a new one. \textbf{(b)} E2, full curriculum, accuracy on new textbooks during training for each seed (later seeds are drawn lighter). The skills are acquired one after another in abrupt steps, and the never-trained combination \skill{mixed} stays at the guessing level. Dotted line: 20\%.}
+\label{fig:e1e2}
+\end{figure}
+
+Table~\ref{tab:e1} and Figure~\ref{fig:e1e2}a show the outcome.
+Every model answers exercises about its training textbooks almost perfectly.
+For $M \le 16$ that is all it can do: on a new textbook, \skill{follow} accuracy is \EOneMOneNewFollow\%, \EOneMFourNewFollow\% and \EOneMOneSixNewFollow\% for $M = 1, 4, 16$.
+These models have stored their textbooks in the weights and do not consult the page in front of them.
+With $M = 64$ the same architecture, trained for the same number of steps, begins to use textbooks it has never seen: over two seeds it follows their rules at \EOneMSixFourNewFollowList\% and composes them at \EOneMSixFourNewComposeTwoList\%.
+With an unlimited supply, both seeds reach at least \EOneMInfNewFollowMin\% on \skill{follow} and \EOneMInfNewComposeTwoMin\% on \skill{compose}.
+
+\input{sec_pilot_e1_reading.tex}

@@ -1,0 +1,12 @@
+Small language models are usually judged by how much they know.
+We ask how little a model needs to know if the rest can be read from its context.
+We frame this as the search for a \emph{base curriculum}: the minimal set of skills that must be in the weights so that task-specific knowledge can be supplied as instructional material at inference time.
+We propose a six-layer candidate, a criterion for what belongs in the weights, and a ladder of generalisation that separates memorising a textbook from reading one.
+We introduce TinyTextbook, a synthetic benchmark in which each episode is a small textbook of freshly sampled rules followed by exercises, and report a pilot study with transformers of about \NparamsRounded{} parameters trained on a CPU (\TotalRuns{} runs).
+Models trained on 16 or fewer distinct textbooks answer perfectly on those and at or near chance on new ones; with enough distinct textbooks they read new ones.
+A skill left out of training stays at chance, and without the simplest skill the models did not acquire composition either.
+Separately trained skills did not combine: no run exceeded \ETwoMixedMax\% on exercises mixing two of them (guessing: 26.7\%).
+Applying the same two layers twice extended the chain of rules a model could follow without adding parameters, but at equal depth looped and unshared models showed no consistent difference.
+Outcomes vary between seeds and are reported as counts.
+The pilot is small: one to four seeds, one synthetic domain, and a fixed page layout in which values are found by position; retrieval by content was not learned within our budget.
+We give a protocol with falsifiable hypotheses for 10--100 million parameters and release the code.
